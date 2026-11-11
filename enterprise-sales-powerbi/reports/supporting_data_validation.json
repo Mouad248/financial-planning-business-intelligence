@@ -1,0 +1,23 @@
+{
+  "data_kind": "synthetic planning inputs",
+  "budget_months": 36,
+  "budget_years": [
+    2014,
+    2015,
+    2016
+  ],
+  "target_rows": 30,
+  "salespeople": 10,
+  "checks": [
+    "annual budget reconciliation",
+    "non-negative finite amounts",
+    "unique salesperson/year",
+    "complete year coverage"
+  ],
+  "unverified": [
+    "targets versus previous-year source actuals",
+    "SQL execution",
+    "DAX execution",
+    "Power BI refresh"
+  ]
+}

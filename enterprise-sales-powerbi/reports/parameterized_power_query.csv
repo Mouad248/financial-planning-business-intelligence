@@ -1,0 +1,217 @@
+TableName,Expression
+DimProduct,"let
+    Source = Sql.Database(SqlServerInstance, ""WideWorldImporters""),
+    BI_vw_DimProduct = Source{[Schema=""BI"",Item=""vw_DimProduct""]}[Data],
+    #""Changed Type"" = Table.TransformColumnTypes(BI_vw_DimProduct,{{""RecommendedRetailPrice"", Currency.Type}, {""TypicalWeightPerUnit"", Currency.Type}}),
+    Custom1 = Table.ReplaceValue(#""Changed Type"", null, ""Not Specified"", Replacer.ReplaceValue, {""Brand""}),
+    Custom2 = Table.ReplaceValue(#""Custom1"", null, ""Not Specified"", Replacer.ReplaceValue, {""Size""}),
+    Custom3 = Table.ReplaceValue(#""Custom2"", null, ""Not Specified"", Replacer.ReplaceValue, {""Color""})
+in
+    Custom3"
+DimCustomer,"let
+    Source = Sql.Database(SqlServerInstance, ""WideWorldImporters""),
+    BI_vw_DimCustomer = Source{[Schema=""BI"",Item=""vw_DimCustomer""]}[Data],
+    #""Changed Type"" = Table.TransformColumnTypes(BI_vw_DimCustomer,{{""CreditLimit"", Currency.Type}}),
+    Custom1 = Table.ReplaceValue(#""Changed Type"", null, ""No Buying Group"", Replacer.ReplaceValue, {""BuyingGroup""})
+in
+    Custom1"
+DimSalesperson,"let
+    Source = Sql.Database(SqlServerInstance, ""WideWorldImporters""),
+    BI_vw_DimSalesperson = Source{[Schema=""BI"",Item=""vw_DimSalesperson""]}[Data]
+in
+    BI_vw_DimSalesperson"
+FactSales,"let
+    Source = Sql.Database(SqlServerInstance, ""WideWorldImporters""),
+    BI_vw_FactSales = Source{[Schema=""BI"",Item=""vw_FactSales""]}[Data],
+    #""Changed Type"" = Table.TransformColumnTypes(BI_vw_FactSales,{{""TaxRate"", type number}, {""UnitPrice"", Currency.Type}, {""NetSalesAmount"", Currency.Type}, {""CostAmount"", Currency.Type}, {""GrossProfitAmount"", Currency.Type}, {""TaxAmount"", Currency.Type}, {""InvoiceValueAmount"", Currency.Type}})
+in
+    #""Changed Type"""
+DimDate,"let
+    // Dynamically find the first and last sales dates
+    MinSalesDate = List.Min(FactSales[InvoiceDate]),
+    MaxSalesDate = List.Max(FactSales[InvoiceDate]),
+
+    // Expand to complete calendar years
+    StartDate = #date(Date.Year(MinSalesDate), 1, 1),
+    EndDate = #date(Date.Year(MaxSalesDate), 12, 31),
+
+    // Create one row per calendar day
+    NumberOfDays = Duration.Days(EndDate - StartDate) + 1,
+
+    DateList =
+        List.Dates(
+            StartDate,
+            NumberOfDays,
+            #duration(1, 0, 0, 0)
+        ),
+
+    ToTable =
+        Table.FromList(
+            DateList,
+            Splitter.SplitByNothing(),
+            {""Date""}
+        ),
+
+    ChangeType =
+        Table.TransformColumnTypes(
+            ToTable,
+            {{""Date"", type date}}
+        ),
+
+    AddYear =
+        Table.AddColumn(
+            ChangeType,
+            ""Year"",
+            each Date.Year([Date]),
+            Int64.Type
+        ),
+
+    AddQuarterNumber =
+        Table.AddColumn(
+            AddYear,
+            ""QuarterNumber"",
+            each Date.QuarterOfYear([Date]),
+            Int64.Type
+        ),
+
+    AddQuarter =
+        Table.AddColumn(
+            AddQuarterNumber,
+            ""Quarter"",
+            each ""Q"" & Text.From([QuarterNumber]),
+            type text
+        ),
+
+    AddMonthNumber =
+        Table.AddColumn(
+            AddQuarter,
+            ""MonthNumber"",
+            each Date.Month([Date]),
+            Int64.Type
+        ),
+
+    AddMonth =
+        Table.AddColumn(
+            AddMonthNumber,
+            ""Month"",
+            each Date.MonthName([Date]),
+            type text
+        ),
+
+    AddMonthShort =
+        Table.AddColumn(
+            AddMonth,
+            ""MonthShort"",
+            each Text.Start(Date.MonthName([Date]), 3),
+            type text
+        ),
+
+    AddYearMonth =
+        Table.AddColumn(
+            AddMonthShort,
+            ""YearMonth"",
+            each
+                Text.From([Year])
+                & ""-""
+                & Text.PadStart(
+                    Text.From([MonthNumber]),
+                    2,
+                    ""0""
+                ),
+            type text
+        ),
+
+    AddYearMonthSort =
+        Table.AddColumn(
+            AddYearMonth,
+            ""YearMonthSort"",
+            each [Year] * 100 + [MonthNumber],
+            Int64.Type
+        ),
+
+    AddWeek =
+        Table.AddColumn(
+            AddYearMonthSort,
+            ""WeekOfYear"",
+            each Date.WeekOfYear([Date], Day.Monday),
+            Int64.Type
+        ),
+
+    AddDay =
+        Table.AddColumn(
+            AddWeek,
+            ""Day"",
+            each Date.Day([Date]),
+            Int64.Type
+        ),
+
+    AddDayOfWeekNumber =
+        Table.AddColumn(
+            AddDay,
+            ""DayOfWeekNumber"",
+            each Date.DayOfWeek([Date], Day.Monday) + 1,
+            Int64.Type
+        ),
+
+    AddDayName =
+        Table.AddColumn(
+            AddDayOfWeekNumber,
+            ""DayName"",
+            each Date.DayOfWeekName([Date]),
+            type text
+        ),
+
+    AddIsWeekend =
+        Table.AddColumn(
+            AddDayName,
+            ""IsWeekend"",
+            each [DayOfWeekNumber] >= 6,
+            type logical
+        )
+
+in
+    AddIsWeekend"
+_Measures,"let
+    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(""i45WMlSKjQUA"", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Placeholder = _t]),
+    #""Changed Type"" = Table.TransformColumnTypes(Source,{{""Placeholder"", Int64.Type}})
+in
+    #""Changed Type"""
+BridgeProductStockGroup,"let
+    Source = Sql.Database(SqlServerInstance, ""WideWorldImporters""),
+    BI_vw_BridgeProductStockGroup = Source{[Schema=""BI"",Item=""vw_BridgeProductStockGroup""]}[Data]
+in
+    BI_vw_BridgeProductStockGroup"
+DimStockGroup,"let
+    Source = Sql.Database(SqlServerInstance, ""WideWorldImporters""),
+    BI_vw_DimStockGroup = Source{[Schema=""BI"",Item=""vw_DimStockGroup""]}[Data]
+in
+    BI_vw_DimStockGroup"
+FactBudget,"let
+    Source = Excel.Workbook(File.Contents(ProjectRoot & ""\data\budget\Monthly_Budget.xlsx""), null, true),
+    Sheet1_Sheet = Source{[Item=""Sheet1"",Kind=""Sheet""]}[Data],
+    #""Promoted Headers"" = Table.PromoteHeaders(Sheet1_Sheet, [PromoteAllScalars=true]),
+    #""Changed Type"" = Table.TransformColumnTypes(#""Promoted Headers"",{{""Year"", Int64.Type}, {""Jan"", Int64.Type}, {""Feb"", Int64.Type}, {""Mar"", Int64.Type}, {""Apr"", Int64.Type}, {""May"", Int64.Type}, {""Jun"", Int64.Type}, {""Jul"", Int64.Type}, {""Aug"", Int64.Type}, {""Sep"", Int64.Type}, {""Oct"", Int64.Type}, {""Nov"", Int64.Type}, {""Dec"", Int64.Type}, {""AnnualTotal"", Int64.Type}}),
+    #""Removed Columns"" = Table.RemoveColumns(#""Changed Type"",{""AnnualTotal""}),
+    #""Unpivoted Other Columns"" = Table.UnpivotOtherColumns(#""Removed Columns"", {""Year""}, ""Attribute"", ""Value""),
+    #""Renamed Columns"" = Table.RenameColumns(#""Unpivoted Other Columns"",{{""Attribute"", ""Month""}, {""Value"", ""BudgetAmount""}}),
+    #""Added Custom"" = Table.AddColumn(#""Renamed Columns"", ""BudgetMonth"", each #date(
+    [Year],
+    List.PositionOf(
+        {""Jan"",""Feb"",""Mar"",""Apr"",""May"",""Jun"",
+         ""Jul"",""Aug"",""Sep"",""Oct"",""Nov"",""Dec""},
+        [Month]
+    ) + 1,
+    1
+)),
+    #""Changed Type1"" = Table.TransformColumnTypes(#""Added Custom"",{{""BudgetMonth"", type date}, {""BudgetAmount"", Currency.Type}})
+in
+    #""Changed Type1"""
+FactSalespersonTarget,"let
+    Source = Csv.Document(File.Contents(ProjectRoot & ""\data\targets\Salesperson_Targets.csv""),[Delimiter="","", Columns=3, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+    #""Promoted Headers"" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    #""Changed Type"" = Table.TransformColumnTypes(#""Promoted Headers"",{{""SalespersonID"", Int64.Type}, {""Year"", Int64.Type}, {""TargetAmount"", Currency.Type}}),
+    #""Added Custom"" = Table.AddColumn(#""Changed Type"", ""Custom"", each #date([Year], 1, 1)),
+    #""Changed Type1"" = Table.TransformColumnTypes(#""Added Custom"",{{""Custom"", type date}}),
+    #""Renamed Columns"" = Table.RenameColumns(#""Changed Type1"",{{""Year"", ""Year""}, {""Custom"", ""TargetYearDate""}})
+in
+    #""Renamed Columns"""

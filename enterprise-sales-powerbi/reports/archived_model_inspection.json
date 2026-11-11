@@ -1,0 +1,36 @@
+{
+  "inspection": "decoded cached import data and extracted formulas; no live SQL or DAX engine execution",
+  "dax_measure_count": 66,
+  "power_query_count": 10,
+  "tables": [
+    "Analysis Dimension",
+    "BridgeProductStockGroup",
+    "DimCustomer",
+    "DimDate",
+    "DimProduct",
+    "DimSalesperson",
+    "DimStockGroup",
+    "FactBudget",
+    "FactSales",
+    "FactSalespersonTarget",
+    "Metric Selector",
+    "Top N Products",
+    "Top N Salespeople",
+    "_Measures"
+  ],
+  "cached_fact_totals": {
+    "fact_rows": 228265,
+    "NetSalesAmount": "172261341.20",
+    "GrossProfitAmount": "85729180.90",
+    "TaxAmount": "25782098.25",
+    "InvoiceValueAmount": "198043439.45",
+    "Quantity": "8950628",
+    "invoice_count": 70510,
+    "loss_making_lines": 4626,
+    "loss_making_revenue": "4962959.45"
+  },
+  "target_derivation_matches_cached_previous_year_actuals": true,
+  "target_derivation_mismatches": [],
+  "latest_cached_sales_date": "2016-05-31",
+  "anonymity": "Original PBIX retained privately. The separate native-project refresh and DAX verification are documented in docs/verification.json."
+}

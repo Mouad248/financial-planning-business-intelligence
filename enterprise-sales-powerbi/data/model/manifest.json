@@ -1,0 +1,59 @@
+{
+  "source": "Original Power BI cached Wide World Importers sample + synthetic planning inputs",
+  "tables": {
+    "DimProduct": {
+      "rows": 227,
+      "columns": 14,
+      "sha256": "c055caf986ea7f1484a383112d13f211e622fcaa1c05a85fbb5b1838afeb02e9"
+    },
+    "DimCustomer": {
+      "rows": 663,
+      "columns": 13,
+      "sha256": "9aae6eb8514f17fd3b52811250eb4c26b0d220e5024f39f62cabfe073884004d"
+    },
+    "DimSalesperson": {
+      "rows": 10,
+      "columns": 5,
+      "sha256": "452ca55c306854be6c7ee699d10c3b7f5b96e4d28b517cf670c3948d361d15af"
+    },
+    "FactSales": {
+      "rows": 228265,
+      "columns": 16,
+      "sha256": "b0769ad3543ee2074c83b7023b3543910cb58c13b2bb4dddc696abbbbf55405a"
+    },
+    "DimDate": {
+      "rows": 1461,
+      "columns": 14,
+      "sha256": "b54126a51e407c0a23dc61b8abf2f47f02e39815d48dece536d89fc45013e190"
+    },
+    "BridgeProductStockGroup": {
+      "rows": 442,
+      "columns": 2,
+      "sha256": "ecd8ba0e98a953c3f94c0380414c2821e3732837ab855e22c27b4290b29f276a"
+    },
+    "DimStockGroup": {
+      "rows": 10,
+      "columns": 2,
+      "sha256": "e45b28d1c6c6d4e5a1a4e8b307bf3aa5efda7207f75cfa134f1b60cbc193d933"
+    },
+    "FactBudget": {
+      "rows": 36,
+      "columns": 4,
+      "sha256": "7413187b51082332d92a35c18fa890737460c3a2b884ed60a42ce48ea7833a84"
+    },
+    "FactSalespersonTarget": {
+      "rows": 30,
+      "columns": 4,
+      "sha256": "c4a75e0bd10f639e58abe7ec3676924e0537c9ed6f914c94d77ac0d1bfcaeab5"
+    }
+  },
+  "financial_totals": {
+    "NetSalesAmount": "172261341.20",
+    "GrossProfitAmount": "85729180.90",
+    "TaxAmount": "25782098.25",
+    "InvoiceValueAmount": "198043439.45",
+    "Quantity": "8950628"
+  },
+  "measures_preserved": 66,
+  "relationships_preserved": 9
+}

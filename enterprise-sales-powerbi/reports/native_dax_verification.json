@@ -1,0 +1,347 @@
+﻿{
+    "engine":  "Native Power BI Desktop Analysis Services",
+    "full_native_refresh":  true,
+    "checks":  56,
+    "passed":  56,
+    "failed":  0,
+    "tables":  14,
+    "relationships":  9,
+    "results":  [
+                    {
+                        "check":  "total/Revenue",
+                        "actual":  172261341.2,
+                        "expected":  "172261341.20",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "total/Gross Profit",
+                        "actual":  85729180.9,
+                        "expected":  "85729180.90",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "total/Cost of Goods Sold",
+                        "actual":  86532160.3,
+                        "expected":  "86532160.30",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "total/Units Sold",
+                        "actual":  8950628,
+                        "expected":  "8950628",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "total/invoice-count",
+                        "actual":  70510,
+                        "expected":  "70510",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "total/weighted-margin",
+                        "actual":  0.497669298885036,
+                        "expected":  "0.4976692988850361975470326827",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "year/2013/Revenue",
+                        "actual":  45707188,
+                        "expected":  "45707188.00",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "year/2013/Gross Profit",
+                        "actual":  22768352.25,
+                        "expected":  "22768352.25",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "year/2013/budget",
+                        "actual":  null,
+                        "expected":  null,
+                        "passed":  true
+                    },
+                    {
+                        "check":  "year/2013/target",
+                        "actual":  null,
+                        "expected":  null,
+                        "passed":  true
+                    },
+                    {
+                        "check":  "year/2014/Revenue",
+                        "actual":  49929487.2,
+                        "expected":  "49929487.20",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "year/2014/Gross Profit",
+                        "actual":  24828462.45,
+                        "expected":  "24828462.45",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "year/2014/budget",
+                        "actual":  50000000,
+                        "expected":  "50000000",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "year/2014/target",
+                        "actual":  47992547.41,
+                        "expected":  "47992547.41",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "year/2014/previous-year",
+                        "actual":  45707188,
+                        "expected":  "45707188.00",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "year/2015/Revenue",
+                        "actual":  53991490.45,
+                        "expected":  "53991490.45",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "year/2015/Gross Profit",
+                        "actual":  26957600.65,
+                        "expected":  "26957600.65",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "year/2015/budget",
+                        "actual":  53500000,
+                        "expected":  "53500000",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "year/2015/target",
+                        "actual":  52925256.43,
+                        "expected":  "52925256.43",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "year/2015/previous-year",
+                        "actual":  49929487.2,
+                        "expected":  "49929487.20",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "year/2016/Revenue",
+                        "actual":  22633175.55,
+                        "expected":  "22633175.55",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "year/2016/Gross Profit",
+                        "actual":  11174765.55,
+                        "expected":  "11174765.55",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "year/2016/budget",
+                        "actual":  55950000,
+                        "expected":  "55950000",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "year/2016/target",
+                        "actual":  57770894.79,
+                        "expected":  "57770894.79",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "year/2016/previous-year",
+                        "actual":  53991490.45,
+                        "expected":  "53991490.45",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "partial-period/2016-PYTD",
+                        "actual":  22679145.45,
+                        "expected":  "22679145.45",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "partial-period/2016-budget-cutoff",
+                        "actual":  22550000,
+                        "expected":  "22550000",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "partial-period/2016-comparable-target",
+                        "actual":  24071206.1625,
+                        "expected":  "24071206.1625",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "partial-period/multiyear-target-blank",
+                        "actual":  null,
+                        "expected":  null,
+                        "passed":  true
+                    },
+                    {
+                        "check":  "budget/comparable-revenue",
+                        "actual":  126554153.2,
+                        "expected":  "126554153.20",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "budget/comparable-budget",
+                        "actual":  126050000,
+                        "expected":  "126050000",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "budget/comparable-attainment",
+                        "actual":  1.00399962871876,
+                        "expected":  "1.003999628718762395874652916",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "time/rolling-12-months",
+                        "actual":  53945520.55,
+                        "expected":  "53945520.55",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "time/rolling-future-blank",
+                        "actual":  null,
+                        "expected":  null,
+                        "passed":  true
+                    },
+                    {
+                        "check":  "salesperson/2",
+                        "actual":  17566878.4,
+                        "expected":  "17566878.40",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "salesperson/3",
+                        "actual":  17315102.7,
+                        "expected":  "17315102.70",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "salesperson/6",
+                        "actual":  17280089.45,
+                        "expected":  "17280089.45",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "salesperson/7",
+                        "actual":  16781811.25,
+                        "expected":  "16781811.25",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "salesperson/8",
+                        "actual":  16779496.5,
+                        "expected":  "16779496.50",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "salesperson/13",
+                        "actual":  17134048.65,
+                        "expected":  "17134048.65",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "salesperson/14",
+                        "actual":  17092680.9,
+                        "expected":  "17092680.90",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "salesperson/15",
+                        "actual":  17294616.5,
+                        "expected":  "17294616.50",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "salesperson/16",
+                        "actual":  17944098.45,
+                        "expected":  "17944098.45",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "salesperson/20",
+                        "actual":  17072518.4,
+                        "expected":  "17072518.40",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "bridge/group-1",
+                        "actual":  34880309.65,
+                        "expected":  "34880309.65",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "bridge/group-2",
+                        "actual":  46441244,
+                        "expected":  "46441244",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "bridge/group-3",
+                        "actual":  3172130,
+                        "expected":  "3172130",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "bridge/group-4",
+                        "actual":  28466856,
+                        "expected":  "28466856",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "bridge/group-6",
+                        "actual":  37402931.45,
+                        "expected":  "37402931.45",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "bridge/group-7",
+                        "actual":  4724985.45,
+                        "expected":  "4724985.45",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "bridge/group-8",
+                        "actual":  5134492,
+                        "expected":  "5134492",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "bridge/group-9",
+                        "actual":  15077335,
+                        "expected":  "15077335",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "bridge/group-10",
+                        "actual":  100664171.55,
+                        "expected":  "100664171.55",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "bridge/multiselect-union",
+                        "actual":  71322049.65,
+                        "expected":  "71322049.65",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "privacy/salesperson-labels-and-contacts",
+                        "actual":  0,
+                        "expected":  "0",
+                        "passed":  true
+                    },
+                    {
+                        "check":  "privacy/customer-labels",
+                        "actual":  0,
+                        "expected":  "0",
+                        "passed":  true
+                    }
+                ]
+}

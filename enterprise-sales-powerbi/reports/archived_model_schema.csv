@@ -1,0 +1,84 @@
+TableName,ColumnName,PandasDataType
+Analysis Dimension,Analysis Dimension,string
+Analysis Dimension,Analysis Dimension Fields,string
+Analysis Dimension,Analysis Dimension Order,Int64
+BridgeProductStockGroup,ProductID,Int64
+BridgeProductStockGroup,StockGroupID,Int64
+DimCustomer,CustomerID,Int64
+DimCustomer,CustomerName,string
+DimCustomer,CustomerCategory,string
+DimCustomer,BuyingGroup,string
+DimCustomer,City,string
+DimCustomer,StateProvince,string
+DimCustomer,SalesTerritory,string
+DimCustomer,Country,string
+DimCustomer,AccountOpenedDate,datetime64[ns]
+DimCustomer,CreditLimit,decimal.Decimal
+DimCustomer,StandardDiscountPercentage,Float64
+DimCustomer,PaymentDays,Int64
+DimCustomer,IsOnCreditHold,bool
+DimDate,Date,datetime64[ns]
+DimDate,Year,Int64
+DimDate,QuarterNumber,Int64
+DimDate,Quarter,string
+DimDate,MonthNumber,Int64
+DimDate,Month,string
+DimDate,MonthShort,string
+DimDate,YearMonth,string
+DimDate,YearMonthSort,Int64
+DimDate,WeekOfYear,Int64
+DimDate,Day,Int64
+DimDate,DayOfWeekNumber,Int64
+DimDate,DayName,string
+DimDate,IsWeekend,bool
+DimProduct,ProductID,Int64
+DimProduct,ProductName,string
+DimProduct,Brand,string
+DimProduct,Size,string
+DimProduct,Color,string
+DimProduct,SupplierName,string
+DimProduct,SupplierCategory,string
+DimProduct,UnitPackageType,string
+DimProduct,OuterPackageType,string
+DimProduct,LeadTimeDays,Int64
+DimProduct,QuantityPerOuter,Int64
+DimProduct,IsChillerStock,bool
+DimProduct,RecommendedRetailPrice,decimal.Decimal
+DimProduct,TypicalWeightPerUnit,decimal.Decimal
+DimSalesperson,SalespersonID,Int64
+DimSalesperson,FullName,string
+DimSalesperson,PreferredName,string
+DimSalesperson,EmailAddress,string
+DimSalesperson,PhoneNumber,string
+DimStockGroup,StockGroupID,Int64
+DimStockGroup,StockGroupName,string
+FactBudget,Year,Int64
+FactBudget,Month,string
+FactBudget,BudgetAmount,decimal.Decimal
+FactBudget,BudgetMonth,datetime64[ns]
+FactSales,InvoiceLineID,Int64
+FactSales,InvoiceID,Int64
+FactSales,OrderID,Int64
+FactSales,InvoiceDate,datetime64[ns]
+FactSales,CustomerID,Int64
+FactSales,ProductID,Int64
+FactSales,SalespersonID,Int64
+FactSales,Quantity,Int64
+FactSales,UnitPrice,decimal.Decimal
+FactSales,TaxRate,Float64
+FactSales,NetSalesAmount,decimal.Decimal
+FactSales,CostAmount,decimal.Decimal
+FactSales,GrossProfitAmount,decimal.Decimal
+FactSales,TaxAmount,decimal.Decimal
+FactSales,InvoiceValueAmount,decimal.Decimal
+FactSales,IsLossMaking,Int64
+FactSalespersonTarget,SalespersonID,Int64
+FactSalespersonTarget,Year,Int64
+FactSalespersonTarget,TargetAmount,decimal.Decimal
+FactSalespersonTarget,TargetYearDate,datetime64[ns]
+Metric Selector,Metric Selector,string
+Metric Selector,Metric Selector Fields,string
+Metric Selector,Metric Selector Order,Int64
+Top N Products,Top N Products,Int64
+Top N Salespeople,Top N Salespeople,Int64
+_Measures,Placeholder,Int64

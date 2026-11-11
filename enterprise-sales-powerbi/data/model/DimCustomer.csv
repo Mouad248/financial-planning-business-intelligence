@@ -1,0 +1,664 @@
+CustomerID,CustomerName,CustomerCategory,BuyingGroup,City,StateProvince,SalesTerritory,Country,AccountOpenedDate,CreditLimit,StandardDiscountPercentage,PaymentDays,IsOnCreditHold
+595,Customer 595,Novelty Shop,Buying Group 002,Accomac,Virginia,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+537,Customer 537,Novelty Shop,Buying Group 002,Akhiok,Alaska,Far West,United States,2013-01-01T00:00:00,,0,7,false
+589,Customer 589,Novelty Shop,Buying Group 002,Alcester,South Dakota,Plains,United States,2013-01-01T00:00:00,,0,7,false
+566,Customer 566,Novelty Shop,Buying Group 002,Amado,Arizona,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+440,Customer 440,Novelty Shop,Buying Group 002,Asher,Oklahoma,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+427,Customer 427,Novelty Shop,Buying Group 002,Athol Springs,New York,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+423,Customer 423,Novelty Shop,Buying Group 002,Baldwin City,Kansas,Plains,United States,2013-01-01T00:00:00,,0,7,false
+433,Customer 433,Novelty Shop,Buying Group 002,Balko,Oklahoma,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+490,Customer 490,Novelty Shop,Buying Group 002,Beals,Maine,New England,United States,2013-01-01T00:00:00,,0,7,false
+526,Customer 526,Novelty Shop,Buying Group 002,Beekmantown,New York,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+578,Customer 578,Novelty Shop,Buying Group 002,Bell Acres,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+509,Customer 509,Novelty Shop,Buying Group 002,Bergen Park,Colorado,Rocky Mountain,United States,2013-01-01T00:00:00,,0,7,false
+410,Customer 410,Novelty Shop,Buying Group 002,Bernstein,Texas,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+443,Customer 443,Novelty Shop,Buying Group 002,Berville,Michigan,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+425,Customer 425,Novelty Shop,Buying Group 002,Bethel Acres,Oklahoma,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+492,Customer 492,Novelty Shop,Buying Group 002,Birds,Illinois,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+402,Customer 402,Novelty Shop,Buying Group 002,Black Lick,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+495,Customer 495,Novelty Shop,Buying Group 002,Boalsburg,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+474,Customer 474,Novelty Shop,Buying Group 002,Bokeelia,Florida,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+485,Customer 485,Novelty Shop,Buying Group 002,Bonner Springs,Kansas,Plains,United States,2013-01-01T00:00:00,,0,7,false
+405,Customer 405,Novelty Shop,Buying Group 002,Bourbonnais,Illinois,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+558,Customer 558,Novelty Shop,Buying Group 002,Bourneville,Ohio,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+519,Customer 519,Novelty Shop,Buying Group 002,Boynton,Oklahoma,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+412,Customer 412,Novelty Shop,Buying Group 002,Bozeman Hot Springs,Montana,Rocky Mountain,United States,2013-01-01T00:00:00,,0,7,false
+508,Customer 508,Novelty Shop,Buying Group 002,Branson West,Missouri,Plains,United States,2013-01-01T00:00:00,,0,7,false
+544,Customer 544,Novelty Shop,Buying Group 002,Broomtown,Alabama,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+523,Customer 523,Novelty Shop,Buying Group 002,Bruceton Mills,West Virginia,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+584,Customer 584,Novelty Shop,Buying Group 002,Cache,Oklahoma,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+437,Customer 437,Novelty Shop,Buying Group 002,Cadogan,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+475,Customer 475,Novelty Shop,Buying Group 002,Cale,Arkansas,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+504,Customer 504,Novelty Shop,Buying Group 002,Cape Neddick,Maine,New England,United States,2013-01-01T00:00:00,,0,7,false
+600,Customer 600,Novelty Shop,Buying Group 002,Caro,Michigan,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+482,Customer 482,Novelty Shop,Buying Group 002,Caton,New York,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+501,Customer 501,Novelty Shop,Buying Group 002,Cavendish,Vermont,New England,United States,2013-01-01T00:00:00,,0,7,false
+547,Customer 547,Novelty Shop,Buying Group 002,Chaseley,North Dakota,Plains,United States,2013-01-01T00:00:00,,0,7,false
+577,Customer 577,Novelty Shop,Buying Group 002,Cherryplain,New York,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+417,Customer 417,Novelty Shop,Buying Group 002,Chetek,Wisconsin,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+525,Customer 525,Novelty Shop,Buying Group 002,Claycomo,Missouri,Plains,United States,2013-01-01T00:00:00,,0,7,false
+524,Customer 524,Novelty Shop,Buying Group 002,Cloquet,Minnesota,Plains,United States,2013-01-01T00:00:00,,0,7,false
+447,Customer 447,Novelty Shop,Buying Group 002,Coin,Iowa,Plains,United States,2013-01-01T00:00:00,,0,7,false
+458,Customer 458,Novelty Shop,Buying Group 002,Coker,Alabama,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+419,Customer 419,Novelty Shop,Buying Group 002,Compass Lake,Florida,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+579,Customer 579,Novelty Shop,Buying Group 002,Connoquenessing,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+454,Customer 454,Novelty Shop,Buying Group 002,Corcovado,Puerto Rico (US Territory),External,United States,2013-01-01T00:00:00,,0,7,false
+596,Customer 596,Novelty Shop,Buying Group 002,Cos Cob,Connecticut,New England,United States,2013-01-01T00:00:00,,0,7,false
+463,Customer 463,Novelty Shop,Buying Group 002,Cowlington,Oklahoma,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+462,Customer 462,Novelty Shop,Buying Group 002,Crossroads,New Mexico,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+593,Customer 593,Novelty Shop,Buying Group 002,Cuyamungue,New Mexico,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+439,Customer 439,Novelty Shop,Buying Group 002,Cylon,Wisconsin,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+445,Customer 445,Novelty Shop,Buying Group 002,Dacono,Colorado,Rocky Mountain,United States,2013-01-01T00:00:00,,0,7,false
+538,Customer 538,Novelty Shop,Buying Group 002,Deeson,Mississippi,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+515,Customer 515,Novelty Shop,Buying Group 002,Del Valle,Texas,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+449,Customer 449,Novelty Shop,Buying Group 002,Delray,West Virginia,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+522,Customer 522,Novelty Shop,Buying Group 002,Dickerson,Maryland,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+599,Customer 599,Novelty Shop,Buying Group 002,Dickworsham,Texas,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+507,Customer 507,Novelty Shop,Buying Group 002,Downingtown,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+592,Customer 592,Novelty Shop,Buying Group 002,Dunkerton,Iowa,Plains,United States,2013-01-01T00:00:00,,0,7,false
+499,Customer 499,Novelty Shop,Buying Group 002,East Fultonham,Ohio,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+530,Customer 530,Novelty Shop,Buying Group 002,East Mountain,Texas,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+411,Customer 411,Novelty Shop,Buying Group 002,Edmund,Wisconsin,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+487,Customer 487,Novelty Shop,Buying Group 002,Elverson,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+493,Customer 493,Novelty Shop,Buying Group 002,Federalsburg,Maryland,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+536,Customer 536,Novelty Shop,Buying Group 002,Ferney,South Dakota,Plains,United States,2013-01-01T00:00:00,,0,7,false
+570,Customer 570,Novelty Shop,Buying Group 002,Flomaton,Alabama,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+473,Customer 473,Novelty Shop,Buying Group 002,Floriston,California,Far West,United States,2013-01-01T00:00:00,,0,7,false
+520,Customer 520,Novelty Shop,Buying Group 002,Frenchburg,Kentucky,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+436,Customer 436,Novelty Shop,Buying Group 002,Gargatha,Virginia,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+514,Customer 514,Novelty Shop,Buying Group 002,Gilford,New Hampshire,New England,United States,2013-01-01T00:00:00,,0,7,false
+477,Customer 477,Novelty Shop,Buying Group 002,Glancy,Mississippi,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+464,Customer 464,Novelty Shop,Buying Group 002,Glen Ullin,North Dakota,Plains,United States,2013-01-01T00:00:00,,0,7,false
+576,Customer 576,Novelty Shop,Buying Group 002,Goodings Grove,Illinois,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+510,Customer 510,Novelty Shop,Buying Group 002,Grabill,Indiana,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+529,Customer 529,Novelty Shop,Buying Group 002,Griswoldville,Georgia,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+516,Customer 516,Novelty Shop,Buying Group 002,Harkers Island,North Carolina,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+597,Customer 597,Novelty Shop,Buying Group 002,Haycock,Alaska,Far West,United States,2013-01-01T00:00:00,,0,7,false
+459,Customer 459,Novelty Shop,Buying Group 002,Haydenville,Ohio,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+424,Customer 424,Novelty Shop,Buying Group 002,Heartwell,Nebraska,Plains,United States,2013-01-01T00:00:00,,0,7,false
+553,Customer 553,Novelty Shop,Buying Group 002,Helotes,Texas,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+420,Customer 420,Novelty Shop,Buying Group 002,Herlong,California,Far West,United States,2013-01-01T00:00:00,,0,7,false
+421,Customer 421,Novelty Shop,Buying Group 002,Highland Home,Alabama,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+554,Customer 554,Novelty Shop,Buying Group 002,Hollandsburg,Indiana,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+442,Customer 442,Novelty Shop,Buying Group 002,Homer City,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+551,Customer 551,Novelty Shop,Buying Group 002,Huntingburg,Indiana,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+591,Customer 591,Novelty Shop,Buying Group 002,Idaho City,Idaho,Rocky Mountain,United States,2013-01-01T00:00:00,,0,7,false
+548,Customer 548,Novelty Shop,Buying Group 002,Indian Creek,Illinois,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+488,Customer 488,Novelty Shop,Buying Group 002,Isabela,Puerto Rico (US Territory),External,United States,2013-01-01T00:00:00,,0,7,false
+527,Customer 527,Novelty Shop,Buying Group 002,Islip Terrace,New York,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+545,Customer 545,Novelty Shop,Buying Group 002,Jamison,Iowa,Plains,United States,2013-01-01T00:00:00,,0,7,false
+567,Customer 567,Novelty Shop,Buying Group 002,Jeromesville,Ohio,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+469,Customer 469,Novelty Shop,Buying Group 002,Johnetta,Kentucky,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+598,Customer 598,Novelty Shop,Buying Group 002,Kapa'a,Hawaii,Far West,United States,2013-01-01T00:00:00,,0,7,false
+476,Customer 476,Novelty Shop,Buying Group 002,Karthaus,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+441,Customer 441,Novelty Shop,Buying Group 002,Keosauqua,Iowa,Plains,United States,2013-01-01T00:00:00,,0,7,false
+546,Customer 546,Novelty Shop,Buying Group 002,Key Biscayne,Florida,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+583,Customer 583,Novelty Shop,Buying Group 002,Knights Landing,California,Far West,United States,2013-01-01T00:00:00,,0,7,false
+452,Customer 452,Novelty Shop,Buying Group 002,Lake Davis,California,Far West,United States,2013-01-01T00:00:00,,0,7,false
+549,Customer 549,Novelty Shop,Buying Group 002,Lake Ronkonkoma,New York,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+415,Customer 415,Novelty Shop,Buying Group 002,Leathersville,Georgia,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+543,Customer 543,Novelty Shop,Buying Group 002,Lexington Heights,Michigan,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+555,Customer 555,Novelty Shop,Buying Group 002,Liberty Grove,Maryland,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+517,Customer 517,Novelty Shop,Buying Group 002,Licking,Missouri,Plains,United States,2013-01-01T00:00:00,,0,7,false
+429,Customer 429,Novelty Shop,Buying Group 002,Lilbourn,Missouri,Plains,United States,2013-01-01T00:00:00,,0,7,false
+434,Customer 434,Novelty Shop,Buying Group 002,Lime Lake,New York,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+430,Customer 430,Novelty Shop,Buying Group 002,Lost River,Idaho,Rocky Mountain,United States,2013-01-01T00:00:00,,0,7,false
+563,Customer 563,Novelty Shop,Buying Group 002,Lostine,Oregon,Far West,United States,2013-01-01T00:00:00,,0,7,false
+486,Customer 486,Novelty Shop,Buying Group 002,Lowellville,Ohio,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+438,Customer 438,Novelty Shop,Buying Group 002,Lucasville,Ohio,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+586,Customer 586,Novelty Shop,Buying Group 002,Lynne,Florida,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+466,Customer 466,Novelty Shop,Buying Group 002,Lytle,Texas,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+467,Customer 467,Novelty Shop,Buying Group 002,Mahaffey,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+594,Customer 594,Novelty Shop,Buying Group 002,Marfa,Texas,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+573,Customer 573,Novelty Shop,Buying Group 002,Marin City,California,Far West,United States,2013-01-01T00:00:00,,0,7,false
+561,Customer 561,Novelty Shop,Buying Group 002,Marion Junction,Alabama,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+484,Customer 484,Novelty Shop,Buying Group 002,Mauldin,South Carolina,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+460,Customer 460,Novelty Shop,Buying Group 002,Mayhill,New Mexico,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+590,Customer 590,Novelty Shop,Buying Group 002,McAdenville,North Carolina,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+559,Customer 559,Novelty Shop,Buying Group 002,Mendoza,Texas,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+541,Customer 541,Novelty Shop,Buying Group 002,Mickleton,New Jersey,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+479,Customer 479,Novelty Shop,Buying Group 002,Mier,Indiana,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+502,Customer 502,Novelty Shop,Buying Group 002,Miesville,Minnesota,Plains,United States,2013-01-01T00:00:00,,0,7,false
+574,Customer 574,Novelty Shop,Buying Group 002,Molalla,Oregon,Far West,United States,2013-01-01T00:00:00,,0,7,false
+582,Customer 582,Novelty Shop,Buying Group 002,Montoya,New Mexico,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+407,Customer 407,Novelty Shop,Buying Group 002,Mooringsport,Louisiana,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+556,Customer 556,Novelty Shop,Buying Group 002,Morita,Texas,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+550,Customer 550,Novelty Shop,Buying Group 002,Morrison Bluff,Arkansas,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+491,Customer 491,Novelty Shop,Buying Group 002,Morton Grove,Illinois,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+450,Customer 450,Novelty Shop,Buying Group 002,Mount Summit,Indiana,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+581,Customer 581,Novelty Shop,Buying Group 002,Munich,North Dakota,Plains,United States,2013-01-01T00:00:00,,0,7,false
+422,Customer 422,Novelty Shop,Buying Group 002,Naches,Washington,Far West,United States,2013-01-01T00:00:00,,0,7,false
+416,Customer 416,Novelty Shop,Buying Group 002,Necedah,Wisconsin,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+557,Customer 557,Novelty Shop,Buying Group 002,New Laguna,New Mexico,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+533,Customer 533,Novelty Shop,Buying Group 002,Nichols Hills,Oklahoma,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+506,Customer 506,Novelty Shop,Buying Group 002,North Beach Haven,New Jersey,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+511,Customer 511,Novelty Shop,Buying Group 002,North Manitou,Michigan,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+539,Customer 539,Novelty Shop,Buying Group 002,Nuangola,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+588,Customer 588,Novelty Shop,Buying Group 002,Oak Point,Texas,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+498,Customer 498,Novelty Shop,Buying Group 002,Obetz,Ohio,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+500,Customer 500,Novelty Shop,Buying Group 002,Obion,Tennessee,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+531,Customer 531,Novelty Shop,Buying Group 002,Omer,Michigan,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+465,Customer 465,Novelty Shop,Buying Group 002,Oologah,Oklahoma,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+401,Customer 401,Novelty Shop,Buying Group 002,Orchard Mesa,Colorado,Rocky Mountain,United States,2013-01-01T00:00:00,,0,7,false
+409,Customer 409,Novelty Shop,Buying Group 002,Orick,California,Far West,United States,2013-01-01T00:00:00,,0,7,false
+568,Customer 568,Novelty Shop,Buying Group 002,Ovilla,Texas,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+560,Customer 560,Novelty Shop,Buying Group 002,Palmas del Mar,Puerto Rico (US Territory),External,United States,2013-01-01T00:00:00,,0,7,false
+428,Customer 428,Novelty Shop,Buying Group 002,Paw Paw Lake,Michigan,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+571,Customer 571,Novelty Shop,Buying Group 002,Pawlet,Vermont,New England,United States,2013-01-01T00:00:00,,0,7,false
+404,Customer 404,Novelty Shop,Buying Group 002,Penns Creek,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+512,Customer 512,Novelty Shop,Buying Group 002,Philip,South Dakota,Plains,United States,2013-01-01T00:00:00,,0,7,false
+494,Customer 494,Novelty Shop,Buying Group 002,Pikeview,Colorado,Rocky Mountain,United States,2013-01-01T00:00:00,,0,7,false
+534,Customer 534,Novelty Shop,Buying Group 002,Plaquemine,Louisiana,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+587,Customer 587,Novelty Shop,Buying Group 002,Plata,Texas,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+483,Customer 483,Novelty Shop,Buying Group 002,Plum Branch,South Carolina,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+496,Customer 496,Novelty Shop,Buying Group 002,Port Hueneme,California,Far West,United States,2013-01-01T00:00:00,,0,7,false
+457,Customer 457,Novelty Shop,Buying Group 002,Portales,New Mexico,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+403,Customer 403,Novelty Shop,Buying Group 002,Queen Valley,Arizona,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+518,Customer 518,Novelty Shop,Buying Group 002,Raton,New Mexico,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+528,Customer 528,Novelty Shop,Buying Group 002,Rich Creek,Virginia,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+471,Customer 471,Novelty Shop,Buying Group 002,Ridgemark,California,Far West,United States,2013-01-01T00:00:00,,0,7,false
+521,Customer 521,Novelty Shop,Buying Group 002,Robertsdale,Alabama,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+408,Customer 408,Novelty Shop,Buying Group 002,Rockwall,Texas,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+431,Customer 431,Novelty Shop,Buying Group 002,Rosa Sánchez,Puerto Rico (US Territory),External,United States,2013-01-01T00:00:00,,0,7,false
+414,Customer 414,Novelty Shop,Buying Group 002,Rose Tree,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+601,Customer 601,Novelty Shop,Buying Group 002,Ruthsburg,Maryland,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+446,Customer 446,Novelty Shop,Buying Group 002,Saint Landry,Louisiana,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+448,Customer 448,Novelty Shop,Buying Group 002,Salt Wells,Nevada,Far West,United States,2013-01-01T00:00:00,,0,7,false
+472,Customer 472,Novelty Shop,Buying Group 002,San Jacinto,California,Far West,United States,2013-01-01T00:00:00,,0,7,false
+580,Customer 580,Novelty Shop,Buying Group 002,Sarversville,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+489,Customer 489,Novelty Shop,Buying Group 002,Sayner,Wisconsin,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+542,Customer 542,Novelty Shop,Buying Group 002,Schererville,Indiana,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+552,Customer 552,Novelty Shop,Buying Group 002,Shay,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+505,Customer 505,Novelty Shop,Buying Group 002,Silver Plume,Colorado,Rocky Mountain,United States,2013-01-01T00:00:00,,0,7,false
+451,Customer 451,Novelty Shop,Buying Group 002,Smoot,Wyoming,Rocky Mountain,United States,2013-01-01T00:00:00,,0,7,false
+453,Customer 453,Novelty Shop,Buying Group 002,Stanardsville,Virginia,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+478,Customer 478,Novelty Shop,Buying Group 002,Stoneboro,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+513,Customer 513,Novelty Shop,Buying Group 002,Straughn,Indiana,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+468,Customer 468,Novelty Shop,Buying Group 002,Sunburg,Minnesota,Plains,United States,2013-01-01T00:00:00,,0,7,false
+455,Customer 455,Novelty Shop,Buying Group 002,Taft Heights,California,Far West,United States,2013-01-01T00:00:00,,0,7,false
+444,Customer 444,Novelty Shop,Buying Group 002,Tea,South Dakota,Plains,United States,2013-01-01T00:00:00,,0,7,false
+435,Customer 435,Novelty Shop,Buying Group 002,Teutopolis,Illinois,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+564,Customer 564,Novelty Shop,Buying Group 002,Tilleda,Wisconsin,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+585,Customer 585,Novelty Shop,Buying Group 002,Towaco,New Jersey,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+535,Customer 535,Novelty Shop,Buying Group 002,Triadelphia,West Virginia,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+572,Customer 572,Novelty Shop,Buying Group 002,Trout Run,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+575,Customer 575,Novelty Shop,Buying Group 002,Trumansburg,New York,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+413,Customer 413,Novelty Shop,Buying Group 002,Truscott,Texas,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+406,Customer 406,Novelty Shop,Buying Group 002,Tuscaloosa,Alabama,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+470,Customer 470,Novelty Shop,Buying Group 002,Universal City,Texas,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+461,Customer 461,Novelty Shop,Buying Group 002,Vair,Texas,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+503,Customer 503,Novelty Shop,Buying Group 002,Valhalla,North Carolina,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+432,Customer 432,Novelty Shop,Buying Group 002,Vamo,Florida,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+497,Customer 497,Novelty Shop,Buying Group 002,Verdery,South Carolina,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+480,Customer 480,Novelty Shop,Buying Group 002,Wapinitia,Oregon,Far West,United States,2013-01-01T00:00:00,,0,7,false
+565,Customer 565,Novelty Shop,Buying Group 002,Wapiti,Wyoming,Rocky Mountain,United States,2013-01-01T00:00:00,,0,7,false
+562,Customer 562,Novelty Shop,Buying Group 002,Ware Shoals,South Carolina,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+532,Customer 532,Novelty Shop,Buying Group 002,Waycross,Georgia,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+540,Customer 540,Novelty Shop,Buying Group 002,Weld,Maine,New England,United States,2013-01-01T00:00:00,,0,7,false
+569,Customer 569,Novelty Shop,Buying Group 002,West Frostproof,Florida,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+456,Customer 456,Novelty Shop,Buying Group 002,West Hempstead,New York,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+481,Customer 481,Novelty Shop,Buying Group 002,White Church,Missouri,Plains,United States,2013-01-01T00:00:00,,0,7,false
+426,Customer 426,Novelty Shop,Buying Group 002,Willow Valley,Arizona,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+418,Customer 418,Novelty Shop,Buying Group 002,Yaak,Montana,Rocky Mountain,United States,2013-01-01T00:00:00,,0,7,false
+83,Customer 83,Novelty Shop,Buying Group 001,Absecon,New Jersey,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+84,Customer 84,Novelty Shop,Buying Group 001,Aceitunas,Puerto Rico (US Territory),External,United States,2013-01-01T00:00:00,,0,7,false
+38,Customer 38,Novelty Shop,Buying Group 001,Airport Drive,Missouri,Plains,United States,2013-01-01T00:00:00,,0,7,false
+91,Customer 91,Novelty Shop,Buying Group 001,Alstead,New Hampshire,New England,United States,2013-01-01T00:00:00,,0,7,false
+44,Customer 44,Novelty Shop,Buying Group 001,Amanda Park,Washington,Far West,United States,2013-01-01T00:00:00,,0,7,false
+85,Customer 85,Novelty Shop,Buying Group 001,Andrix,Colorado,Rocky Mountain,United States,2013-01-01T00:00:00,,0,7,false
+125,Customer 125,Novelty Shop,Buying Group 001,Annamoriah,West Virginia,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+151,Customer 151,Novelty Shop,Buying Group 001,Antares,Arizona,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+199,Customer 199,Novelty Shop,Buying Group 001,Antonito,Colorado,Rocky Mountain,United States,2013-01-01T00:00:00,,0,7,false
+155,Customer 155,Novelty Shop,Buying Group 001,Arbor Vitae,Wisconsin,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+42,Customer 42,Novelty Shop,Buying Group 001,Arietta,New York,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+178,Customer 178,Novelty Shop,Buying Group 001,Armstrong Creek,Wisconsin,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+141,Customer 141,Novelty Shop,Buying Group 001,Arrow Rock,Missouri,Plains,United States,2013-01-01T00:00:00,,0,7,false
+143,Customer 143,Novelty Shop,Buying Group 001,Ashtabula,Ohio,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+161,Customer 161,Novelty Shop,Buying Group 001,Aspen Park,Colorado,Rocky Mountain,United States,2013-01-01T00:00:00,,0,7,false
+174,Customer 174,Novelty Shop,Buying Group 001,Astor Park,Florida,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+25,Customer 25,Novelty Shop,Buying Group 001,Avenal,California,Far West,United States,2013-01-01T00:00:00,,0,7,false
+148,Customer 148,Novelty Shop,Buying Group 001,Baraboo,Wisconsin,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+15,Customer 15,Novelty Shop,Buying Group 001,Batson,Texas,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+146,Customer 146,Novelty Shop,Buying Group 001,Belgreen,Alabama,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+108,Customer 108,Novelty Shop,Buying Group 001,Bernie,Missouri,Plains,United States,2013-01-01T00:00:00,,0,7,false
+115,Customer 115,Novelty Shop,Buying Group 001,Bethania,North Carolina,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+81,Customer 81,Novelty Shop,Buying Group 001,Big Moose,New York,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+12,Customer 12,Novelty Shop,Buying Group 001,Biscay,Minnesota,Plains,United States,2013-01-01T00:00:00,,0,7,false
+8,Customer 8,Novelty Shop,Buying Group 001,Bow Mar,Colorado,Rocky Mountain,United States,2013-01-01T00:00:00,,0,7,false
+27,Customer 27,Novelty Shop,Buying Group 001,Bowlus,Minnesota,Plains,United States,2013-01-01T00:00:00,,0,7,false
+33,Customer 33,Novelty Shop,Buying Group 001,Boyden Arbor,South Carolina,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+120,Customer 120,Novelty Shop,Buying Group 001,Bratenahl,Ohio,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+187,Customer 187,Novelty Shop,Buying Group 001,Brown City,Michigan,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+198,Customer 198,Novelty Shop,Buying Group 001,Buell,Missouri,Plains,United States,2013-01-01T00:00:00,,0,7,false
+137,Customer 137,Novelty Shop,Buying Group 001,Carbonville,Utah,Rocky Mountain,United States,2013-01-01T00:00:00,,0,7,false
+180,Customer 180,Novelty Shop,Buying Group 001,Caselton,Nevada,Far West,United States,2013-01-01T00:00:00,,0,7,false
+114,Customer 114,Novelty Shop,Buying Group 001,Cherry Grove Beach,South Carolina,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+94,Customer 94,Novelty Shop,Buying Group 001,Cheyenne Wells,Colorado,Rocky Mountain,United States,2013-01-01T00:00:00,,0,7,false
+93,Customer 93,Novelty Shop,Buying Group 001,Clewiston,Florida,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+73,Customer 73,Novelty Shop,Buying Group 001,Cokato,Minnesota,Plains,United States,2013-01-01T00:00:00,,0,7,false
+20,Customer 20,Novelty Shop,Buying Group 001,College Place,Washington,Far West,United States,2013-01-01T00:00:00,,0,7,false
+16,Customer 16,Novelty Shop,Buying Group 001,Coney Island,Missouri,Plains,United States,2013-01-01T00:00:00,,0,7,false
+150,Customer 150,Novelty Shop,Buying Group 001,Corfu,New York,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+72,Customer 72,Novelty Shop,Buying Group 001,Cortaro,Arizona,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+160,Customer 160,Novelty Shop,Buying Group 001,Crary,North Dakota,Plains,United States,2013-01-01T00:00:00,,0,7,false
+101,Customer 101,Novelty Shop,Buying Group 001,Cundiyo,New Mexico,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+113,Customer 113,Novelty Shop,Buying Group 001,Dahlia,New Mexico,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+34,Customer 34,Novelty Shop,Buying Group 001,Dallardsville,Texas,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+11,Customer 11,Novelty Shop,Buying Group 001,Devault,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+39,Customer 39,Novelty Shop,Buying Group 001,Diablock,Kentucky,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+158,Customer 158,Novelty Shop,Buying Group 001,Donner,Louisiana,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+88,Customer 88,Novelty Shop,Buying Group 001,Dracut,Massachusetts[E],New England,United States,2013-01-01T00:00:00,,0,7,false
+24,Customer 24,Novelty Shop,Buying Group 001,Dundarrach,North Carolina,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+60,Customer 60,Novelty Shop,Buying Group 001,East Dailey,West Virginia,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+17,Customer 17,Novelty Shop,Buying Group 001,East Fultonham,Ohio,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+128,Customer 128,Novelty Shop,Buying Group 001,East Portal,Colorado,Rocky Mountain,United States,2013-01-01T00:00:00,,0,7,false
+170,Customer 170,Novelty Shop,Buying Group 001,Eastchester,New York,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+154,Customer 154,Novelty Shop,Buying Group 001,Eden Valley,Minnesota,Plains,United States,2013-01-01T00:00:00,,0,7,false
+59,Customer 59,Novelty Shop,Buying Group 001,Edgartown,Massachusetts[E],New England,United States,2013-01-01T00:00:00,,0,7,false
+36,Customer 36,Novelty Shop,Buying Group 001,Ekron,Kentucky,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+98,Customer 98,Novelty Shop,Buying Group 001,El Centro,California,Far West,United States,2013-01-01T00:00:00,,0,7,false
+121,Customer 121,Novelty Shop,Buying Group 001,Elrosa,Minnesota,Plains,United States,2013-01-01T00:00:00,,0,7,false
+29,Customer 29,Novelty Shop,Buying Group 001,Eulaton,Alabama,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+61,Customer 61,Novelty Shop,Buying Group 001,Fairfield Glade,Tennessee,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+102,Customer 102,Novelty Shop,Buying Group 001,Fieldbrook,California,Far West,United States,2013-01-01T00:00:00,,0,7,false
+147,Customer 147,Novelty Shop,Buying Group 001,Fishtail,Montana,Rocky Mountain,United States,2013-01-01T00:00:00,,0,7,false
+126,Customer 126,Novelty Shop,Buying Group 001,Francis Mills,New Jersey,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+7,Customer 7,Novelty Shop,Buying Group 001,Frankewing,Tennessee,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+140,Customer 140,Novelty Shop,Buying Group 001,Furley,Kansas,Plains,United States,2013-01-01T00:00:00,,0,7,false
+68,Customer 68,Novelty Shop,Buying Group 001,Gardere,Louisiana,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+5,Customer 5,Novelty Shop,Buying Group 001,Gasport,New York,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+107,Customer 107,Novelty Shop,Buying Group 001,Glen Avon,California,Far West,United States,2013-01-01T00:00:00,,0,7,false
+162,Customer 162,Novelty Shop,Buying Group 001,Glen Park,New York,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+18,Customer 18,Novelty Shop,Buying Group 001,Goffstown,New Hampshire,New England,United States,2013-01-01T00:00:00,,0,7,false
+71,Customer 71,Novelty Shop,Buying Group 001,Good Hart,Michigan,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+62,Customer 62,Novelty Shop,Buying Group 001,Great Neck Estates,New York,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+99,Customer 99,Novelty Shop,Buying Group 001,Guin,Alabama,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+55,Customer 55,Novelty Shop,Buying Group 001,Gum Branch,Georgia,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+77,Customer 77,Novelty Shop,Buying Group 001,Hahira,Georgia,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+50,Customer 50,Novelty Shop,Buying Group 001,Hambleton,West Virginia,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+124,Customer 124,Novelty Shop,Buying Group 001,Hanoverton,Ohio,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+139,Customer 139,Novelty Shop,Buying Group 001,Hardeeville,South Carolina,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+182,Customer 182,Novelty Shop,Buying Group 001,Hayes Center,Nebraska,Plains,United States,2013-01-01T00:00:00,,0,7,false
+26,Customer 26,Novelty Shop,Buying Group 001,Hedrick,Iowa,Plains,United States,2013-01-01T00:00:00,,0,7,false
+181,Customer 181,Novelty Shop,Buying Group 001,Heilwood,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+179,Customer 179,Novelty Shop,Buying Group 001,Hiteman,Iowa,Plains,United States,2013-01-01T00:00:00,,0,7,false
+64,Customer 64,Novelty Shop,Buying Group 001,Hodgdon,Maine,New England,United States,2013-01-01T00:00:00,,0,7,false
+156,Customer 156,Novelty Shop,Buying Group 001,Hollywood Park,Texas,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+196,Customer 196,Novelty Shop,Buying Group 001,Howells,Nebraska,Plains,United States,2013-01-01T00:00:00,,0,7,false
+52,Customer 52,Novelty Shop,Buying Group 001,Idria,California,Far West,United States,2013-01-01T00:00:00,,0,7,false
+23,Customer 23,Novelty Shop,Buying Group 001,Ikatan,Alaska,Far West,United States,2013-01-01T00:00:00,,0,7,false
+51,Customer 51,Novelty Shop,Buying Group 001,Imlaystown,New Jersey,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+40,Customer 40,Novelty Shop,Buying Group 001,Impact,Texas,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+74,Customer 74,Novelty Shop,Buying Group 001,Indios,Puerto Rico (US Territory),External,United States,2013-01-01T00:00:00,,0,7,false
+149,Customer 149,Novelty Shop,Buying Group 001,Inguadona,Minnesota,Plains,United States,2013-01-01T00:00:00,,0,7,false
+46,Customer 46,Novelty Shop,Buying Group 001,Jemison,Alabama,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+6,Customer 6,Novelty Shop,Buying Group 001,Jessie,North Dakota,Plains,United States,2013-01-01T00:00:00,,0,7,false
+103,Customer 103,Novelty Shop,Buying Group 001,Kalvesta,Kansas,Plains,United States,2013-01-01T00:00:00,,0,7,false
+37,Customer 37,Novelty Shop,Buying Group 001,Kerby,Oregon,Far West,United States,2013-01-01T00:00:00,,0,7,false
+142,Customer 142,Novelty Shop,Buying Group 001,King Cove,Alaska,Far West,United States,2013-01-01T00:00:00,,0,7,false
+193,Customer 193,Novelty Shop,Buying Group 001,Knifley,Kentucky,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+30,Customer 30,Novelty Shop,Buying Group 001,Koontzville,Washington,Far West,United States,2013-01-01T00:00:00,,0,7,false
+131,Customer 131,Novelty Shop,Buying Group 001,Kwethluk,Alaska,Far West,United States,2013-01-01T00:00:00,,0,7,false
+82,Customer 82,Novelty Shop,Buying Group 001,La Cueva,New Mexico,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+133,Customer 133,Novelty Shop,Buying Group 001,Lake Erie Beach,New York,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+47,Customer 47,Novelty Shop,Buying Group 001,Lake Hughes,California,Far West,United States,2013-01-01T00:00:00,,0,7,false
+31,Customer 31,Novelty Shop,Buying Group 001,Lake Stevens,Washington,Far West,United States,2013-01-01T00:00:00,,0,7,false
+57,Customer 57,Novelty Shop,Buying Group 001,Lakemore,Ohio,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+144,Customer 144,Novelty Shop,Buying Group 001,Larose,Louisiana,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+95,Customer 95,Novelty Shop,Buying Group 001,Lavon,Texas,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+19,Customer 19,Novelty Shop,Buying Group 001,Lemeta,Alaska,Far West,United States,2013-01-01T00:00:00,,0,7,false
+195,Customer 195,Novelty Shop,Buying Group 001,Lesslie,South Carolina,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+1,Customer 1,Novelty Shop,Buying Group 001,Lisco,Nebraska,Plains,United States,2013-01-01T00:00:00,,0,7,false
+14,Customer 14,Novelty Shop,Buying Group 001,Long Meadow,Maryland,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+69,Customer 69,Novelty Shop,Buying Group 001,Lytle Creek,California,Far West,United States,2013-01-01T00:00:00,,0,7,false
+66,Customer 66,Novelty Shop,Buying Group 001,Madaket,Massachusetts[E],New England,United States,2013-01-01T00:00:00,,0,7,false
+172,Customer 172,Novelty Shop,Buying Group 001,Madrone,New Mexico,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+197,Customer 197,Novelty Shop,Buying Group 001,Magalia,California,Far West,United States,2013-01-01T00:00:00,,0,7,false
+176,Customer 176,Novelty Shop,Buying Group 001,Malott,Washington,Far West,United States,2013-01-01T00:00:00,,0,7,false
+145,Customer 145,Novelty Shop,Buying Group 001,Manahawkin,New Jersey,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+97,Customer 97,Novelty Shop,Buying Group 001,Manchester Center,Vermont,New England,United States,2013-01-01T00:00:00,,0,7,false
+130,Customer 130,Novelty Shop,Buying Group 001,Maple Shade,New Jersey,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+58,Customer 58,Novelty Shop,Buying Group 001,Mappsburg,Virginia,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+153,Customer 153,Novelty Shop,Buying Group 001,Marcell,Minnesota,Plains,United States,2013-01-01T00:00:00,,0,7,false
+32,Customer 32,Novelty Shop,Buying Group 001,Maypearl,Texas,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+166,Customer 166,Novelty Shop,Buying Group 001,McCamey,Texas,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+122,Customer 122,Novelty Shop,Buying Group 001,McClave,Colorado,Rocky Mountain,United States,2013-01-01T00:00:00,,0,7,false
+4,Customer 4,Novelty Shop,Buying Group 001,Medicine Lodge,Kansas,Plains,United States,2013-01-01T00:00:00,,0,7,false
+129,Customer 129,Novelty Shop,Buying Group 001,Mineral Hills,Michigan,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+132,Customer 132,Novelty Shop,Buying Group 001,Minidoka,Idaho,Rocky Mountain,United States,2013-01-01T00:00:00,,0,7,false
+136,Customer 136,Novelty Shop,Buying Group 001,Mount Montgomery,Nevada,Far West,United States,2013-01-01T00:00:00,,0,7,false
+49,Customer 49,Novelty Shop,Buying Group 001,Muir,Michigan,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+53,Customer 53,Novelty Shop,Buying Group 001,Nanafalia,Alabama,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+194,Customer 194,Novelty Shop,Buying Group 001,Naples Park,Florida,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+138,Customer 138,Novelty Shop,Buying Group 001,Navassa,North Carolina,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+9,Customer 9,Novelty Shop,Buying Group 001,Netcong,New Jersey,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+70,Customer 70,Novelty Shop,Buying Group 001,New Baden,Illinois,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+86,Customer 86,Novelty Shop,Buying Group 001,New Lexington,Ohio,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+65,Customer 65,Novelty Shop,Buying Group 001,North Cowden,Texas,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+110,Customer 110,Novelty Shop,Buying Group 001,North Crows Nest,Indiana,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+28,Customer 28,Novelty Shop,Buying Group 001,North Ridge,New York,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+41,Customer 41,Novelty Shop,Buying Group 001,Olivette,Missouri,Plains,United States,2013-01-01T00:00:00,,0,7,false
+192,Customer 192,Novelty Shop,Buying Group 001,Optimo,New Mexico,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+191,Customer 191,Novelty Shop,Buying Group 001,Orchard Hill,Georgia,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+111,Customer 111,Novelty Shop,Buying Group 001,Oriole Beach,Florida,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+177,Customer 177,Novelty Shop,Buying Group 001,Orrtanna,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+171,Customer 171,Novelty Shop,Buying Group 001,Ortley Beach,New Jersey,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+79,Customer 79,Novelty Shop,Buying Group 001,Page City,Kansas,Plains,United States,2013-01-01T00:00:00,,0,7,false
+163,Customer 163,Novelty Shop,Buying Group 001,Panaca,Nevada,Far West,United States,2013-01-01T00:00:00,,0,7,false
+3,Customer 3,Novelty Shop,Buying Group 001,Peeples Valley,Arizona,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+186,Customer 186,Novelty Shop,Buying Group 001,Placer,Oregon,Far West,United States,2013-01-01T00:00:00,,0,7,false
+127,Customer 127,Novelty Shop,Buying Group 001,Point Roberts,Washington,Far West,United States,2013-01-01T00:00:00,,0,7,false
+188,Customer 188,Novelty Shop,Buying Group 001,Premont,Texas,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+116,Customer 116,Novelty Shop,Buying Group 001,Rafael Capó,Puerto Rico (US Territory),External,United States,2013-01-01T00:00:00,,0,7,false
+54,Customer 54,Novelty Shop,Buying Group 001,Railroad,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+167,Customer 167,Novelty Shop,Buying Group 001,Rockwall,Texas,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+123,Customer 123,Novelty Shop,Buying Group 001,Roe Park,New York,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+164,Customer 164,Novelty Shop,Buying Group 001,Rothsville,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+56,Customer 56,Novelty Shop,Buying Group 001,Royal City,Washington,Far West,United States,2013-01-01T00:00:00,,0,7,false
+159,Customer 159,Novelty Shop,Buying Group 001,Saint Louis Park,Minnesota,Plains,United States,2013-01-01T00:00:00,,0,7,false
+157,Customer 157,Novelty Shop,Buying Group 001,Saks,Alabama,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+112,Customer 112,Novelty Shop,Buying Group 001,Sallyards,Kansas,Plains,United States,2013-01-01T00:00:00,,0,7,false
+175,Customer 175,Novelty Shop,Buying Group 001,San Acacia,New Mexico,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+92,Customer 92,Novelty Shop,Buying Group 001,Sans Souci,South Carolina,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+87,Customer 87,Novelty Shop,Buying Group 001,Sauquoit,New York,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+117,Customer 117,Novelty Shop,Buying Group 001,Scofield,Utah,Rocky Mountain,United States,2013-01-01T00:00:00,,0,7,false
+168,Customer 168,Novelty Shop,Buying Group 001,Seagraves,Texas,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+78,Customer 78,Novelty Shop,Buying Group 001,Sekiu,Washington,Far West,United States,2013-01-01T00:00:00,,0,7,false
+67,Customer 67,Novelty Shop,Buying Group 001,Sentinel Butte,North Dakota,Plains,United States,2013-01-01T00:00:00,,0,7,false
+45,Customer 45,Novelty Shop,Buying Group 001,Severna Park,Maryland,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+169,Customer 169,Novelty Shop,Buying Group 001,Sinclair,Wyoming,Rocky Mountain,United States,2013-01-01T00:00:00,,0,7,false
+201,Customer 201,Novelty Shop,Buying Group 001,Skyway,Washington,Far West,United States,2013-01-01T00:00:00,,0,7,false
+35,Customer 35,Novelty Shop,Buying Group 001,Slanesville,West Virginia,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+184,Customer 184,Novelty Shop,Buying Group 001,South Euclid,Ohio,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+96,Customer 96,Novelty Shop,Buying Group 001,South La Paloma,Texas,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+109,Customer 109,Novelty Shop,Buying Group 001,South Laguna,California,Far West,United States,2013-01-01T00:00:00,,0,7,false
+63,Customer 63,Novelty Shop,Buying Group 001,Stallion Springs,California,Far West,United States,2013-01-01T00:00:00,,0,7,false
+119,Customer 119,Novelty Shop,Buying Group 001,Statenville,Georgia,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+13,Customer 13,Novelty Shop,Buying Group 001,Stonefort,Illinois,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+152,Customer 152,Novelty Shop,Buying Group 001,Sun River,Montana,Rocky Mountain,United States,2013-01-01T00:00:00,,0,7,false
+2,Customer 2,Novelty Shop,Buying Group 001,Sylvanite,Montana,Rocky Mountain,United States,2013-01-01T00:00:00,,0,7,false
+134,Customer 134,Novelty Shop,Buying Group 001,Tavares,Florida,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+135,Customer 135,Novelty Shop,Buying Group 001,Terre du Lac,Missouri,Plains,United States,2013-01-01T00:00:00,,0,7,false
+190,Customer 190,Novelty Shop,Buying Group 001,Teutopolis,Illinois,Great Lakes,United States,2013-01-01T00:00:00,,0,7,false
+183,Customer 183,Novelty Shop,Buying Group 001,Tierra Verde,Florida,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+90,Customer 90,Novelty Shop,Buying Group 001,Tolna,North Dakota,Plains,United States,2013-01-01T00:00:00,,0,7,false
+105,Customer 105,Novelty Shop,Buying Group 001,Tomnolen,Mississippi,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+200,Customer 200,Novelty Shop,Buying Group 001,Tooele,Utah,Rocky Mountain,United States,2013-01-01T00:00:00,,0,7,false
+165,Customer 165,Novelty Shop,Buying Group 001,Topstone,Connecticut,New England,United States,2013-01-01T00:00:00,,0,7,false
+48,Customer 48,Novelty Shop,Buying Group 001,Trentwood,Washington,Far West,United States,2013-01-01T00:00:00,,0,7,false
+21,Customer 21,Novelty Shop,Buying Group 001,Tresckow,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+106,Customer 106,Novelty Shop,Buying Group 001,Tumacacori,Arizona,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+100,Customer 100,Novelty Shop,Buying Group 001,Tunnelhill,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+43,Customer 43,Novelty Shop,Buying Group 001,Upper Preston,Washington,Far West,United States,2013-01-01T00:00:00,,0,7,false
+80,Customer 80,Novelty Shop,Buying Group 001,Valdese,North Carolina,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+118,Customer 118,Novelty Shop,Buying Group 001,Vassalboro,Maine,New England,United States,2013-01-01T00:00:00,,0,7,false
+89,Customer 89,Novelty Shop,Buying Group 001,Victory Gardens,New Jersey,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+185,Customer 185,Novelty Shop,Buying Group 001,Vidrine,Louisiana,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+104,Customer 104,Novelty Shop,Buying Group 001,Wallagrass,Maine,New England,United States,2013-01-01T00:00:00,,0,7,false
+173,Customer 173,Novelty Shop,Buying Group 001,Wappingers Falls,New York,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+22,Customer 22,Novelty Shop,Buying Group 001,Ward Ridge,Florida,Southeast,United States,2013-01-01T00:00:00,,0,7,false
+189,Customer 189,Novelty Shop,Buying Group 001,Wilkes-Barre,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,,0,7,false
+10,Customer 10,Novelty Shop,Buying Group 001,Wimbledon,North Dakota,Plains,United States,2013-01-01T00:00:00,,0,7,false
+75,Customer 75,Novelty Shop,Buying Group 001,Windsor Locks,Connecticut,New England,United States,2013-01-01T00:00:00,,0,7,false
+76,Customer 76,Novelty Shop,Buying Group 001,Yewed,Oklahoma,Southwest,United States,2013-01-01T00:00:00,,0,7,false
+841,Customer 841,Gift Store,No Buying Group,Abbottsburg,North Carolina,Southeast,United States,2013-01-01T00:00:00,2100,0,7,false
+853,Customer 853,Gift Store,No Buying Group,Akhiok,Alaska,Far West,United States,2013-01-01T00:00:00,3000,0,7,false
+892,Customer 892,Supermarket,No Buying Group,Alden Bridge,Louisiana,Southeast,United States,2013-01-01T00:00:00,1890,0,7,false
+889,Customer 889,Gift Store,No Buying Group,Argusville,North Dakota,Plains,United States,2013-01-01T00:00:00,1300,0,7,false
+968,Customer 968,Corporate,No Buying Group,Arrowbear Lake,California,Far West,United States,2013-01-01T00:00:00,3400,0,7,false
+961,Customer 961,Gift Store,No Buying Group,Arrowhead Highlands,California,Far West,United States,2013-01-01T00:00:00,3600,0,7,false
+854,Customer 854,Novelty Shop,No Buying Group,Bakers Mill,Florida,Southeast,United States,2013-01-01T00:00:00,3700,0,7,false
+913,Customer 913,Supermarket,No Buying Group,Bayou Cane,Louisiana,Southeast,United States,2013-01-01T00:00:00,3045,0,7,false
+824,Customer 824,Supermarket,No Buying Group,Bazemore,Alabama,Southeast,United States,2013-01-01T00:00:00,3200,0,7,false
+864,Customer 864,Computer Store,No Buying Group,Beaver Bay,Minnesota,Plains,United States,2013-01-01T00:00:00,1300,0,7,false
+857,Customer 857,Gift Store,No Buying Group,Ben Arnold,Texas,Southwest,United States,2013-01-01T00:00:00,2000,0,7,false
+981,Customer 981,Gift Store,No Buying Group,Bernardston,Massachusetts[E],New England,United States,2013-01-01T00:00:00,3400,0,7,false
+840,Customer 840,Novelty Shop,No Buying Group,Blackville,South Carolina,Southeast,United States,2013-01-01T00:00:00,2000,0,7,false
+818,Customer 818,Novelty Shop,No Buying Group,Bladenboro,North Carolina,Southeast,United States,2013-01-01T00:00:00,1155,0,7,false
+905,Customer 905,Supermarket,No Buying Group,Bock,Minnesota,Plains,United States,2013-01-01T00:00:00,2400,0,7,false
+960,Customer 960,Computer Store,No Buying Group,Bombay Beach,California,Far West,United States,2013-01-01T00:00:00,1500,0,7,false
+955,Customer 955,Novelty Shop,No Buying Group,Bowleys Quarters,Maryland,Mideast,United States,2013-01-01T00:00:00,1700,0,7,false
+817,Customer 817,Supermarket,No Buying Group,Branchburg Park,New Jersey,Mideast,United States,2013-01-01T00:00:00,2100,0,7,false
+970,Customer 970,Novelty Shop,No Buying Group,Bratt,Florida,Southeast,United States,2013-01-01T00:00:00,2300,0,7,false
+915,Customer 915,Corporate,No Buying Group,Buchanan Lake Village,Texas,Southwest,United States,2013-01-01T00:00:00,1984.5,0,7,false
+927,Customer 927,Novelty Shop,No Buying Group,Calvert City,Kentucky,Southeast,United States,2013-01-01T00:00:00,1470,0,7,false
+802,Customer 802,Corporate,No Buying Group,Cañon,New Mexico,Southwest,United States,2013-01-01T00:00:00,2940,0,7,false
+899,Customer 899,Corporate,No Buying Group,Capa,South Dakota,Plains,United States,2013-01-01T00:00:00,3900,0,7,false
+906,Customer 906,Computer Store,No Buying Group,Caruthers,California,Far West,United States,2013-01-01T00:00:00,3300,0,7,false
+821,Customer 821,Supermarket,No Buying Group,Cataño,Puerto Rico (US Territory),External,United States,2013-01-01T00:00:00,2400,0,7,false
+1000,Customer 1000,Novelty Shop,No Buying Group,Catesby,Oklahoma,Southwest,United States,2013-01-01T00:00:00,2300,0,7,false
+887,Customer 887,Supermarket,No Buying Group,Cave Junction,Oregon,Far West,United States,2013-01-01T00:00:00,3990,0,7,false
+831,Customer 831,Corporate,No Buying Group,Chalco,Nebraska,Plains,United States,2013-01-01T00:00:00,3885,0,7,false
+862,Customer 862,Supermarket,No Buying Group,Chateaugay,New York,Mideast,United States,2013-01-01T00:00:00,1400,0,7,false
+943,Customer 943,Novelty Shop,No Buying Group,Cherry Grove Beach,South Carolina,Southeast,United States,2013-01-01T00:00:00,2600,0,7,false
+966,Customer 966,Supermarket,No Buying Group,Chipita Park,Colorado,Rocky Mountain,United States,2013-01-01T00:00:00,2100,0,7,false
+997,Customer 997,Supermarket,No Buying Group,Cloud Lake,Florida,Southeast,United States,2013-01-01T00:00:00,3500,0,7,false
+909,Customer 909,Supermarket,No Buying Group,Coffeyville,Kansas,Plains,United States,2013-01-01T00:00:00,3200,0,7,false
+879,Customer 879,Computer Store,No Buying Group,Conesus Lake,New York,Mideast,United States,2013-01-01T00:00:00,3200,0,7,false
+921,Customer 921,Supermarket,No Buying Group,Conewango,New York,Mideast,United States,2013-01-01T00:00:00,3885,0,7,false
+979,Customer 979,Corporate,No Buying Group,Cookietown,Oklahoma,Southwest,United States,2013-01-01T00:00:00,3300,0,7,false
+852,Customer 852,Supermarket,No Buying Group,Coosa,Georgia,Southeast,United States,2013-01-01T00:00:00,2200,0,7,false
+896,Customer 896,Supermarket,No Buying Group,Cotuit,Massachusetts[E],New England,United States,2013-01-01T00:00:00,3300,0,7,false
+876,Customer 876,Novelty Shop,No Buying Group,Coupland,Texas,Southwest,United States,2013-01-01T00:00:00,1500,0,7,false
+868,Customer 868,Novelty Shop,No Buying Group,Coyville,Kansas,Plains,United States,2013-01-01T00:00:00,2000,0,7,false
+930,Customer 930,Gift Store,No Buying Group,Cramerton,North Carolina,Southeast,United States,2013-01-01T00:00:00,3400,0,7,false
+848,Customer 848,Computer Store,No Buying Group,Creelsboro,Kentucky,Southeast,United States,2013-01-01T00:00:00,2900,0,7,false
+991,Customer 991,Supermarket,No Buying Group,Cuyahoga Heights,Ohio,Great Lakes,United States,2013-01-01T00:00:00,3600,0,7,false
+894,Customer 894,Corporate,No Buying Group,Cypress Quarters,Florida,Southeast,United States,2013-01-01T00:00:00,2300,0,7,false
+903,Customer 903,Computer Store,No Buying Group,Darling,Mississippi,Southeast,United States,2013-01-01T00:00:00,1600,0,7,false
+842,Customer 842,Gift Store,No Buying Group,Deer River,Minnesota,Plains,United States,2013-01-01T00:00:00,2600,0,7,false
+816,Customer 816,Gift Store,No Buying Group,Dennis Acres,Missouri,Plains,United States,2013-01-01T00:00:00,2400,0,7,false
+812,Customer 812,Supermarket,No Buying Group,Drakesboro,Kentucky,Southeast,United States,2013-01-01T00:00:00,2200,0,7,false
+933,Customer 933,Computer Store,No Buying Group,Drumright,Oklahoma,Southwest,United States,2013-01-01T00:00:00,3700,0,7,false
+856,Customer 856,Corporate,No Buying Group,Dry Run,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,2400,0,7,false
+901,Customer 901,Corporate,No Buying Group,Du Quoin,Illinois,Great Lakes,United States,2013-01-01T00:00:00,3000,0,7,false
+863,Customer 863,Corporate,No Buying Group,Eagle Valley,New York,Mideast,United States,2013-01-01T00:00:00,2100,0,7,false
+959,Customer 959,Novelty Shop,No Buying Group,Edgecomb,Maine,New England,United States,2013-01-01T00:00:00,1900,0,7,false
+805,Customer 805,Novelty Shop,No Buying Group,Ekwok,Alaska,Far West,United States,2013-01-01T00:00:00,3300,0,7,false
+990,Customer 990,Corporate,No Buying Group,El Refugio,Texas,Southwest,United States,2013-01-01T00:00:00,2500,0,7,false
+829,Customer 829,Supermarket,No Buying Group,Elbing,Kansas,Plains,United States,2013-01-01T00:00:00,3500,0,7,false
+867,Customer 867,Computer Store,No Buying Group,Elk Garden,West Virginia,Southeast,United States,2013-01-01T00:00:00,3700,0,7,false
+815,Customer 815,Novelty Shop,No Buying Group,Elkatawa,Kentucky,Southeast,United States,2013-01-01T00:00:00,2900,0,7,false
+928,Customer 928,Computer Store,No Buying Group,Esopus,New York,Mideast,United States,2013-01-01T00:00:00,2200,0,7,false
+962,Customer 962,Supermarket,No Buying Group,Ewart,Iowa,Plains,United States,2013-01-01T00:00:00,1400,0,7,false
+860,Customer 860,Corporate,No Buying Group,Ewen,Michigan,Great Lakes,United States,2013-01-01T00:00:00,2900,0,7,false
+952,Customer 952,Novelty Shop,No Buying Group,Flanagan,Illinois,Great Lakes,United States,2013-01-01T00:00:00,3200,0,7,false
+890,Customer 890,Computer Store,No Buying Group,Flowella,Texas,Southwest,United States,2013-01-01T00:00:00,4630.5,0,7,false
+923,Customer 923,Novelty Shop,No Buying Group,Fortville,Indiana,Great Lakes,United States,2013-01-01T00:00:00,3700,0,7,false
+837,Customer 837,Supermarket,No Buying Group,Gardners,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,1400,0,7,false
+886,Customer 886,Supermarket,No Buying Group,Garlin,Kentucky,Southeast,United States,2013-01-01T00:00:00,2400,0,7,false
+859,Customer 859,Gift Store,No Buying Group,Gassaway,West Virginia,Southeast,United States,2013-01-01T00:00:00,3000,0,7,false
+832,Customer 832,Supermarket,No Buying Group,Glenwillow,Ohio,Great Lakes,United States,2013-01-01T00:00:00,3500,0,7,false
+910,Customer 910,Gift Store,No Buying Group,Golden Meadow,Louisiana,Southeast,United States,2013-01-01T00:00:00,1200,0,7,false
+935,Customer 935,Corporate,No Buying Group,Golf View,New Jersey,Mideast,United States,2013-01-01T00:00:00,1700,0,7,false
+983,Customer 983,Supermarket,No Buying Group,Grannis,Arkansas,Southeast,United States,2013-01-01T00:00:00,2600,0,7,false
+985,Customer 985,Corporate,No Buying Group,Grantsburg,Wisconsin,Great Lakes,United States,2013-01-01T00:00:00,2400,0,7,false
+839,Customer 839,Novelty Shop,No Buying Group,Greenback,Tennessee,Southeast,United States,2013-01-01T00:00:00,4200,0,7,false
+919,Customer 919,Computer Store,No Buying Group,Greig,New York,Mideast,United States,2013-01-01T00:00:00,3000,0,7,false
+900,Customer 900,Gift Store,No Buying Group,Gresston,Georgia,Southeast,United States,2013-01-01T00:00:00,2300,0,7,false
+888,Customer 888,Corporate,No Buying Group,Grider,Arkansas,Southeast,United States,2013-01-01T00:00:00,3700,0,7,false
+984,Customer 984,Corporate,No Buying Group,Haddon Heights,New Jersey,Mideast,United States,2013-01-01T00:00:00,2900,0,7,false
+849,Customer 849,Supermarket,No Buying Group,Haltom City,Texas,Southwest,United States,2013-01-01T00:00:00,1500,0,7,false
+967,Customer 967,Gift Store,No Buying Group,Hanaford,Illinois,Great Lakes,United States,2013-01-01T00:00:00,2100,0,7,false
+908,Customer 908,Novelty Shop,No Buying Group,Harbour Pointe,Washington,Far West,United States,2013-01-01T00:00:00,3500,0,7,false
+944,Customer 944,Novelty Shop,No Buying Group,Hawarden,Iowa,Plains,United States,2013-01-01T00:00:00,3990,0,7,false
+924,Customer 924,Novelty Shop,No Buying Group,Hightsville,North Carolina,Southeast,United States,2013-01-01T00:00:00,2700,0,7,false
+855,Customer 855,Computer Store,No Buying Group,Humansville,Missouri,Plains,United States,2013-01-01T00:00:00,1680,0,7,false
+950,Customer 950,Corporate,No Buying Group,Huntington Woods,Michigan,Great Lakes,United States,2013-01-01T00:00:00,2900,0,7,false
+971,Customer 971,Corporate,No Buying Group,Iliamna,Alaska,Far West,United States,2013-01-01T00:00:00,3150,0,7,false
+948,Customer 948,Supermarket,No Buying Group,Jane,Missouri,Plains,United States,2013-01-01T00:00:00,3300,0,7,false
+951,Customer 951,Supermarket,No Buying Group,Jesmond Dene,California,Far West,United States,2013-01-01T00:00:00,3300,0,7,false
+823,Customer 823,Gift Store,No Buying Group,Jolley,Iowa,Plains,United States,2013-01-01T00:00:00,3500,0,7,false
+949,Customer 949,Corporate,No Buying Group,Jones Creek,Texas,Southwest,United States,2013-01-01T00:00:00,3500,0,7,false
+938,Customer 938,Novelty Shop,No Buying Group,Kannapolis,North Carolina,Southeast,United States,2013-01-01T00:00:00,3300,0,7,false
+865,Customer 865,Gift Store,No Buying Group,Kinder,Louisiana,Southeast,United States,2013-01-01T00:00:00,2900,0,7,false
+974,Customer 974,Computer Store,No Buying Group,Kopperl,Texas,Southwest,United States,2013-01-01T00:00:00,1600,0,7,false
+804,Customer 804,Computer Store,No Buying Group,La Bolt,South Dakota,Plains,United States,2013-01-01T00:00:00,2200,0,7,false
+869,Customer 869,Novelty Shop,No Buying Group,La Grange Park,Illinois,Great Lakes,United States,2013-01-01T00:00:00,3675,0,7,false
+872,Customer 872,Corporate,No Buying Group,La Paz,Indiana,Great Lakes,United States,2013-01-01T00:00:00,1995,0,7,false
+941,Customer 941,Novelty Shop,No Buying Group,Lake Clarke Shores,Florida,Southeast,United States,2013-01-01T00:00:00,1700,0,7,false
+897,Customer 897,Corporate,No Buying Group,Lake Crystal,Minnesota,Plains,United States,2013-01-01T00:00:00,3500,0,7,false
+844,Customer 844,Supermarket,No Buying Group,Laurence Harbor,New Jersey,Mideast,United States,2013-01-01T00:00:00,1890,0,7,false
+972,Customer 972,Computer Store,No Buying Group,Lompoc,California,Far West,United States,2013-01-01T00:00:00,2100,0,7,false
+988,Customer 988,Gift Store,No Buying Group,Lorentz,West Virginia,Southeast,United States,2013-01-01T00:00:00,1900,0,7,false
+980,Customer 980,Novelty Shop,No Buying Group,Lunds,Wisconsin,Great Lakes,United States,2013-01-01T00:00:00,2900,0,7,false
+820,Customer 820,Computer Store,No Buying Group,Madison Park,New Jersey,Mideast,United States,2013-01-01T00:00:00,3500,0,7,false
+878,Customer 878,Corporate,No Buying Group,Makoti,North Dakota,Plains,United States,2013-01-01T00:00:00,3700,0,7,false
+874,Customer 874,Novelty Shop,No Buying Group,Mamou,Louisiana,Southeast,United States,2013-01-01T00:00:00,3197.25,0,7,false
+877,Customer 877,Gift Store,No Buying Group,Marcella,New Jersey,Mideast,United States,2013-01-01T00:00:00,3300,0,7,false
+843,Customer 843,Corporate,No Buying Group,Marguerite,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,1100,0,7,false
+996,Customer 996,Gift Store,No Buying Group,Marion Hill,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,2200,0,7,false
+836,Customer 836,Novelty Shop,No Buying Group,Markville,Minnesota,Plains,United States,2013-01-01T00:00:00,1600,0,7,false
+954,Customer 954,Supermarket,No Buying Group,Mary Esther,Florida,Southeast,United States,2013-01-01T00:00:00,3800,0,7,false
+953,Customer 953,Supermarket,No Buying Group,Mashulaville,Mississippi,Southeast,United States,2013-01-01T00:00:00,3200,0,7,false
+965,Customer 965,Corporate,No Buying Group,McCall,Idaho,Rocky Mountain,United States,2013-01-01T00:00:00,3000,0,7,false
+880,Customer 880,Computer Store,No Buying Group,McCammon,Idaho,Rocky Mountain,United States,2013-01-01T00:00:00,2600,0,7,false
+883,Customer 883,Gift Store,No Buying Group,McQueen,Oklahoma,Southwest,United States,2013-01-01T00:00:00,3500,0,7,false
+870,Customer 870,Gift Store,No Buying Group,Meadowdale,Washington,Far West,United States,2013-01-01T00:00:00,3600,0,7,false
+973,Customer 973,Novelty Shop,No Buying Group,Middleway,West Virginia,Southeast,United States,2013-01-01T00:00:00,3300,0,7,false
+873,Customer 873,Supermarket,No Buying Group,Moquino,New Mexico,Southwest,United States,2013-01-01T00:00:00,2700,0,7,false
+866,Customer 866,Gift Store,No Buying Group,Mount Pocono,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,1890,0,7,false
+939,Customer 939,Supermarket,No Buying Group,Nahant,Massachusetts[E],New England,United States,2013-01-01T00:00:00,2000,0,7,false
+916,Customer 916,Gift Store,No Buying Group,Nehawka,Nebraska,Plains,United States,2013-01-01T00:00:00,1400,0,7,false
+914,Customer 914,Supermarket,No Buying Group,Nesmith,South Carolina,Southeast,United States,2013-01-01T00:00:00,3675,0,7,false
+838,Customer 838,Corporate,No Buying Group,New Braintree,Massachusetts[E],New England,United States,2013-01-01T00:00:00,1890,0,7,false
+885,Customer 885,Corporate,No Buying Group,New Plymouth,Idaho,Rocky Mountain,United States,2013-01-01T00:00:00,2500,0,7,false
+845,Customer 845,Corporate,No Buying Group,New Zion,South Carolina,Southeast,United States,2013-01-01T00:00:00,1400,0,7,false
+957,Customer 957,Novelty Shop,No Buying Group,Nicasio,California,Far West,United States,2013-01-01T00:00:00,2200,0,7,false
+819,Customer 819,Computer Store,No Buying Group,Nitro,West Virginia,Southeast,United States,2013-01-01T00:00:00,1800,0,7,false
+861,Customer 861,Supermarket,No Buying Group,North Brookfield,Massachusetts[E],New England,United States,2013-01-01T00:00:00,2500,0,7,false
+926,Customer 926,Corporate,No Buying Group,North Eastham,Massachusetts[E],New England,United States,2013-01-01T00:00:00,2200,0,7,false
+977,Customer 977,Novelty Shop,No Buying Group,North Eaton,Ohio,Great Lakes,United States,2013-01-01T00:00:00,1400,0,7,false
+922,Customer 922,Gift Store,No Buying Group,North Muskegon,Michigan,Great Lakes,United States,2013-01-01T00:00:00,2520,0,7,false
+931,Customer 931,Corporate,No Buying Group,North York,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,2300,0,7,false
+934,Customer 934,Novelty Shop,No Buying Group,Northrop,Minnesota,Plains,United States,2013-01-01T00:00:00,2205,0,7,false
+911,Customer 911,Gift Store,No Buying Group,Oakpark,Virginia,Southeast,United States,2013-01-01T00:00:00,3360,0,7,false
+995,Customer 995,Novelty Shop,No Buying Group,Oconto Falls,Wisconsin,Great Lakes,United States,2013-01-01T00:00:00,1100,0,7,false
+811,Customer 811,Novelty Shop,No Buying Group,Old River-Winfree,Texas,Southwest,United States,2013-01-01T00:00:00,2100,0,7,false
+925,Customer 925,Corporate,No Buying Group,Oley,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,3900,0,7,false
+898,Customer 898,Computer Store,No Buying Group,Orpha,Wyoming,Rocky Mountain,United States,2013-01-01T00:00:00,4095,0,7,false
+895,Customer 895,Corporate,No Buying Group,Oval,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,2310,0,7,false
+834,Customer 834,Gift Store,No Buying Group,Palatine Bridge,New York,Mideast,United States,2013-01-01T00:00:00,1500,0,7,false
+809,Customer 809,Computer Store,No Buying Group,Panton,Vermont,New England,United States,2013-01-01T00:00:00,1700,0,7,false
+998,Customer 998,Computer Store,No Buying Group,Pastura,New Mexico,Southwest,United States,2013-01-01T00:00:00,3300,0,7,false
+814,Customer 814,Novelty Shop,No Buying Group,Petronila,Texas,Southwest,United States,2013-01-01T00:00:00,2310,0,7,false
+958,Customer 958,Gift Store,No Buying Group,Pharr,Texas,Southwest,United States,2013-01-01T00:00:00,3300,0,7,false
+969,Customer 969,Computer Store,No Buying Group,Phelps City,Missouri,Plains,United States,2013-01-01T00:00:00,3300,0,7,false
+940,Customer 940,Gift Store,No Buying Group,Port Alto,Texas,Southwest,United States,2013-01-01T00:00:00,1200,0,7,false
+929,Customer 929,Supermarket,No Buying Group,Port Chilkoot,Alaska,Far West,United States,2013-01-01T00:00:00,1600,0,7,false
+978,Customer 978,Supermarket,No Buying Group,Puerto de Luna,New Mexico,Southwest,United States,2013-01-01T00:00:00,3465,0,7,false
+808,Customer 808,Computer Store,No Buying Group,Rail Road Flat,California,Far West,United States,2013-01-01T00:00:00,1800,0,7,false
+825,Customer 825,Gift Store,No Buying Group,Raven,Virginia,Southeast,United States,2013-01-01T00:00:00,3000,0,7,false
+956,Customer 956,Computer Store,No Buying Group,Red Mesa,Arizona,Southwest,United States,2013-01-01T00:00:00,1800,0,7,false
+942,Customer 942,Corporate,No Buying Group,Roachtown,Illinois,Great Lakes,United States,2013-01-01T00:00:00,1700,0,7,false
+882,Customer 882,Gift Store,No Buying Group,Robertsburg,West Virginia,Southeast,United States,2013-01-01T00:00:00,2700,0,7,false
+986,Customer 986,Novelty Shop,No Buying Group,Sabinsville,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,1680,0,7,false
+891,Customer 891,Supermarket,No Buying Group,Sandy Level,Virginia,Southeast,United States,2013-01-01T00:00:00,2700,0,7,false
+987,Customer 987,Supermarket,No Buying Group,Schaal,Arkansas,Southeast,United States,2013-01-01T00:00:00,3465,0,7,false
+932,Customer 932,Corporate,No Buying Group,Schoharie,New York,Mideast,United States,2013-01-01T00:00:00,1800,0,7,false
+976,Customer 976,Computer Store,No Buying Group,Sea Island,Georgia,Southeast,United States,2013-01-01T00:00:00,3858.75,0,7,false
+810,Customer 810,Corporate,No Buying Group,Segundo,Colorado,Rocky Mountain,United States,2013-01-01T00:00:00,1200,0,7,false
+851,Customer 851,Gift Store,No Buying Group,Seiling,Oklahoma,Southwest,United States,2013-01-01T00:00:00,1890,0,7,false
+907,Customer 907,Supermarket,No Buying Group,Shawboro,North Carolina,Southeast,United States,2013-01-01T00:00:00,3500,0,7,false
+801,Customer 801,Corporate,No Buying Group,Shell,Wyoming,Rocky Mountain,United States,2013-01-01T00:00:00,3000,0,7,false
+993,Customer 993,Gift Store,No Buying Group,Shell Knob,Missouri,Plains,United States,2013-01-01T00:00:00,3500,0,7,false
+920,Customer 920,Computer Store,No Buying Group,Shenorock,New York,Mideast,United States,2013-01-01T00:00:00,4000,0,7,false
+904,Customer 904,Corporate,No Buying Group,Sherwin,Kansas,Plains,United States,2013-01-01T00:00:00,4000,0,7,false
+806,Customer 806,Novelty Shop,No Buying Group,Sinclair,Wyoming,Rocky Mountain,United States,2013-01-01T00:00:00,3000,0,7,false
+917,Customer 917,Novelty Shop,No Buying Group,Soham,New Mexico,Southwest,United States,2013-01-01T00:00:00,1300,0,7,false
+937,Customer 937,Gift Store,No Buying Group,Southside,Alabama,Southeast,United States,2013-01-01T00:00:00,1155,0,7,false
+826,Customer 826,Novelty Shop,No Buying Group,Spillertown,Illinois,Great Lakes,United States,2013-01-01T00:00:00,3200,0,7,false
+850,Customer 850,Gift Store,No Buying Group,Spillville,Iowa,Plains,United States,2013-01-01T00:00:00,1900,0,7,false
+884,Customer 884,Computer Store,No Buying Group,Switz City,Indiana,Great Lakes,United States,2013-01-01T00:00:00,3800,0,7,false
+827,Customer 827,Computer Store,No Buying Group,Tamora,Nebraska,Plains,United States,2013-01-01T00:00:00,2500,0,7,false
+936,Customer 936,Novelty Shop,No Buying Group,Tempe,Arizona,Southwest,United States,2013-01-01T00:00:00,3900,0,7,false
+813,Customer 813,Corporate,No Buying Group,Tenstrike,Minnesota,Plains,United States,2013-01-01T00:00:00,2600,0,7,false
+803,Customer 803,Novelty Shop,No Buying Group,Termo,California,Far West,United States,2013-01-01T00:00:00,2000,0,7,false
+902,Customer 902,Supermarket,No Buying Group,The Colony,Texas,Southwest,United States,2013-01-01T00:00:00,1700,0,7,false
+822,Customer 822,Supermarket,No Buying Group,Tiff City,Missouri,Plains,United States,2013-01-01T00:00:00,1500,0,7,false
+871,Customer 871,Computer Store,No Buying Group,Tolchester Beach,Maryland,Mideast,United States,2013-01-01T00:00:00,1800,0,7,false
+828,Customer 828,Gift Store,No Buying Group,Tolono,Illinois,Great Lakes,United States,2013-01-01T00:00:00,1785,0,7,false
+946,Customer 946,Supermarket,No Buying Group,Toughkenamon,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,3990,0,7,false
+964,Customer 964,Supermarket,No Buying Group,Trilby,Florida,Southeast,United States,2013-01-01T00:00:00,2600,0,7,false
+975,Customer 975,Novelty Shop,No Buying Group,Tschetter Colony,South Dakota,Plains,United States,2013-01-01T00:00:00,3000,0,7,false
+835,Customer 835,Supermarket,No Buying Group,Twin Peaks,California,Far West,United States,2013-01-01T00:00:00,3150,0,7,false
+918,Customer 918,Novelty Shop,No Buying Group,Twodot,Montana,Rocky Mountain,United States,2013-01-01T00:00:00,1600,0,7,false
+846,Customer 846,Gift Store,No Buying Group,Valley View Park,California,Far West,United States,2013-01-01T00:00:00,2200,0,7,false
+994,Customer 994,Supermarket,No Buying Group,Van Alstyne,Texas,Southwest,United States,2013-01-01T00:00:00,2400,0,7,false
+947,Customer 947,Supermarket,No Buying Group,Venersborg,Washington,Far West,United States,2013-01-01T00:00:00,2800,0,7,false
+992,Customer 992,Novelty Shop,No Buying Group,Vollmar,Colorado,Rocky Mountain,United States,2013-01-01T00:00:00,1800,0,7,false
+875,Customer 875,Novelty Shop,No Buying Group,Waite Hill,Ohio,Great Lakes,United States,2013-01-01T00:00:00,3300,0,7,false
+982,Customer 982,Supermarket,No Buying Group,Walapai,Arizona,Southwest,United States,2013-01-01T00:00:00,3150,0,7,false
+807,Customer 807,Gift Store,No Buying Group,Wanaque,New Jersey,Mideast,United States,2013-01-01T00:00:00,3100,0,7,false
+963,Customer 963,Corporate,No Buying Group,Watonga,Oklahoma,Southwest,United States,2013-01-01T00:00:00,2700,0,7,false
+830,Customer 830,Novelty Shop,No Buying Group,Weigelstown,Pennsylvania,Mideast,United States,2013-01-01T00:00:00,2000,0,7,false
+893,Customer 893,Novelty Shop,No Buying Group,West Elkton,Ohio,Great Lakes,United States,2013-01-01T00:00:00,2000,0,7,false
+833,Customer 833,Novelty Shop,No Buying Group,Westwater,Utah,Rocky Mountain,United States,2013-01-01T00:00:00,3300,0,7,false
+945,Customer 945,Computer Store,No Buying Group,White Horse Beach,Massachusetts[E],New England,United States,2013-01-01T00:00:00,1470,0,7,false
+847,Customer 847,Computer Store,No Buying Group,Wounded Knee,South Dakota,Plains,United States,2013-01-01T00:00:00,1890,0,7,false
+881,Customer 881,Computer Store,No Buying Group,Wrangell,Alaska,Far West,United States,2013-01-01T00:00:00,3100,0,7,false
+912,Customer 912,Computer Store,No Buying Group,Wyndham,Virginia,Southeast,United States,2013-01-01T00:00:00,2600,0,7,false
+999,Customer 999,Supermarket,No Buying Group,Yerington,Nevada,Far West,United States,2013-01-01T00:00:00,3600,0,7,false
+858,Customer 858,Novelty Shop,No Buying Group,Yermo,California,Far West,United States,2013-01-01T00:00:00,3800,0,7,false
+989,Customer 989,Gift Store,No Buying Group,Zurich,Kansas,Plains,United States,2013-01-01T00:00:00,1600,0,7,false
+1030,Customer 1030,Computer Store,No Buying Group,Ashland,New Hampshire,New England,United States,2014-06-18T00:00:00,4000,0,7,false
+1036,Customer 1036,Computer Store,No Buying Group,Basin,Montana,Rocky Mountain,United States,2014-11-13T00:00:00,1700,0,7,false
+1034,Customer 1034,Novelty Shop,No Buying Group,Biggs,California,Far West,United States,2014-09-03T00:00:00,3885,0,7,false
+1022,Customer 1022,Computer Store,No Buying Group,Biorka,Alaska,Far West,United States,2013-11-25T00:00:00,3000,0,7,false
+1056,Customer 1056,Corporate,No Buying Group,Bowmansville,New York,Mideast,United States,2015-12-20T00:00:00,4000,0,7,false
+1023,Customer 1023,Corporate,No Buying Group,Brookville,Indiana,Great Lakes,United States,2013-12-01T00:00:00,2900,0,7,false
+1024,Customer 1024,Supermarket,No Buying Group,Byers,Colorado,Rocky Mountain,United States,2013-12-26T00:00:00,3500,0,7,false
+1012,Customer 1012,Corporate,No Buying Group,Cherokee,Iowa,Plains,United States,2013-06-16T00:00:00,2000,0,7,false
+1020,Customer 1020,Computer Store,No Buying Group,Claremont,North Carolina,Southeast,United States,2013-10-23T00:00:00,2625,0,7,false
+1043,Customer 1043,Corporate,No Buying Group,Colebrook,Connecticut,New England,United States,2015-01-30T00:00:00,3500,0,7,false
+1002,Customer 1002,Computer Store,No Buying Group,Copake,New York,Mideast,United States,2013-02-22T00:00:00,3300,0,7,false
+1017,Customer 1017,Gift Store,No Buying Group,Corryton,Tennessee,Southeast,United States,2013-08-15T00:00:00,2730,0,7,false
+1010,Customer 1010,Supermarket,No Buying Group,Dawn,Texas,Southwest,United States,2013-05-06T00:00:00,1200,0,7,false
+1014,Customer 1014,Novelty Shop,No Buying Group,Dillon,South Carolina,Southeast,United States,2013-07-18T00:00:00,3100,0,7,false
+1001,Customer 1001,Computer Store,No Buying Group,Dorchester,Texas,Southwest,United States,2013-01-27T00:00:00,3900,0,7,false
+1029,Customer 1029,Novelty Shop,No Buying Group,Dover,Minnesota,Plains,United States,2014-05-18T00:00:00,3900,0,7,false
+1059,Customer 1059,Supermarket,No Buying Group,Ellisville,Illinois,Great Lakes,United States,2016-03-13T00:00:00,1800,0,7,false
+1042,Customer 1042,Novelty Shop,No Buying Group,Florahome,Florida,Southeast,United States,2015-01-22T00:00:00,2500,0,7,false
+1019,Customer 1019,Novelty Shop,No Buying Group,Gallipolis Ferry,West Virginia,Southeast,United States,2013-10-03T00:00:00,1575,0,7,false
+1046,Customer 1046,Computer Store,No Buying Group,Great Neck,New York,Mideast,United States,2015-06-12T00:00:00,2940,0,7,false
+1009,Customer 1009,Computer Store,No Buying Group,Greenfield,Arkansas,Southeast,United States,2013-05-03T00:00:00,2800,0,7,false
+1018,Customer 1018,Computer Store,No Buying Group,Greycliff,Montana,Rocky Mountain,United States,2013-09-08T00:00:00,1700,0,7,false
+1013,Customer 1013,Computer Store,No Buying Group,Hanna,Oklahoma,Southwest,United States,2013-06-22T00:00:00,3900,0,7,false
+1003,Customer 1003,Supermarket,No Buying Group,Holden Beach,North Carolina,Southeast,United States,2013-03-25T00:00:00,4095,0,7,false
+1051,Customer 1051,Gift Store,No Buying Group,Isabela,Puerto Rico (US Territory),External,United States,2015-09-24T00:00:00,2800,0,7,false
+1033,Customer 1033,Supermarket,No Buying Group,Komalty,Oklahoma,Southwest,United States,2014-08-26T00:00:00,2000,0,7,false
+1039,Customer 1039,Gift Store,No Buying Group,Lake Mohegan,New York,Mideast,United States,2015-01-13T00:00:00,2300,0,7,false
+1047,Customer 1047,Computer Store,No Buying Group,Lancaster,New Hampshire,New England,United States,2015-07-28T00:00:00,1600,0,7,false
+1052,Customer 1052,Supermarket,No Buying Group,Liberty Plain,Massachusetts[E],New England,United States,2015-09-26T00:00:00,3300,0,7,false
+1053,Customer 1053,Computer Store,No Buying Group,Linden,Texas,Southwest,United States,2015-11-27T00:00:00,2300,0,7,false
+1061,Customer 1061,Computer Store,No Buying Group,Long Beach,Washington,Far West,United States,2016-05-07T00:00:00,1600,0,7,false
+1044,Customer 1044,Novelty Shop,No Buying Group,Meaux,Louisiana,Southeast,United States,2015-02-12T00:00:00,2000,0,7,false
+1060,Customer 1060,Corporate,No Buying Group,Midland,Washington,Far West,United States,2016-04-23T00:00:00,1100,0,7,false
+1032,Customer 1032,Novelty Shop,No Buying Group,Moroni,Utah,Rocky Mountain,United States,2014-08-25T00:00:00,3100,0,7,false
+1007,Customer 1007,Corporate,No Buying Group,Newberg,Oregon,Far West,United States,2013-04-13T00:00:00,2600,0,7,false
+1045,Customer 1045,Supermarket,No Buying Group,Nicholson,Georgia,Southeast,United States,2015-02-22T00:00:00,2400,0,7,false
+1006,Customer 1006,Novelty Shop,No Buying Group,Oakshade,Ohio,Great Lakes,United States,2013-04-10T00:00:00,3100,0,7,false
+1057,Customer 1057,Computer Store,No Buying Group,Orland Hills,Illinois,Great Lakes,United States,2016-01-09T00:00:00,1600,0,7,false
+1025,Customer 1025,Gift Store,No Buying Group,Otterville,Illinois,Great Lakes,United States,2014-01-15T00:00:00,1300,0,7,false
+1050,Customer 1050,Supermarket,No Buying Group,Palmas del Mar,Puerto Rico (US Territory),External,United States,2015-09-23T00:00:00,3100,0,7,false
+1026,Customer 1026,Computer Store,No Buying Group,Ravia,Oklahoma,Southwest,United States,2014-01-17T00:00:00,1470,0,7,false
+1008,Customer 1008,Novelty Shop,No Buying Group,Reader,Arkansas,Southeast,United States,2013-04-14T00:00:00,2100,0,7,false
+1027,Customer 1027,Corporate,No Buying Group,Richland,Iowa,Plains,United States,2014-02-22T00:00:00,2100,0,7,false
+1037,Customer 1037,Corporate,No Buying Group,Ridgeway,South Carolina,Southeast,United States,2014-11-21T00:00:00,2100,0,7,false
+1055,Customer 1055,Computer Store,No Buying Group,Roberta Mill,North Carolina,Southeast,United States,2015-11-30T00:00:00,3800,0,7,false
+1054,Customer 1054,Supermarket,No Buying Group,Rogersville,Alabama,Southeast,United States,2015-11-29T00:00:00,1600,0,7,false
+1015,Customer 1015,Computer Store,No Buying Group,Saxapahaw,North Carolina,Southeast,United States,2013-08-01T00:00:00,1500,0,7,false
+1031,Customer 1031,Gift Store,No Buying Group,Scioto Furnace,Ohio,Great Lakes,United States,2014-08-03T00:00:00,3700,0,7,false
+1040,Customer 1040,Novelty Shop,No Buying Group,Scott,Georgia,Southeast,United States,2015-01-16T00:00:00,2400,0,7,false
+1058,Customer 1058,Gift Store,No Buying Group,Sigel,Pennsylvania,Mideast,United States,2016-02-01T00:00:00,1900,0,7,false
+1021,Customer 1021,Supermarket,No Buying Group,Staley,North Carolina,Southeast,United States,2013-11-19T00:00:00,1100,0,7,false
+1038,Customer 1038,Gift Store,No Buying Group,Tarzan,Texas,Southwest,United States,2014-12-03T00:00:00,2000,0,7,false
+1041,Customer 1041,Supermarket,No Buying Group,Tremont,Maine,New England,United States,2015-01-18T00:00:00,2900,0,7,false
+1016,Customer 1016,Supermarket,No Buying Group,Virgil,Kansas,Plains,United States,2013-08-10T00:00:00,3100,0,7,false
+1048,Customer 1048,Gift Store,No Buying Group,Walker Valley,New York,Mideast,United States,2015-08-09T00:00:00,3000,0,7,false
+1011,Customer 1011,Gift Store,No Buying Group,Wasco,Oregon,Far West,United States,2013-06-11T00:00:00,4000,0,7,false
+1005,Customer 1005,Novelty Shop,No Buying Group,Wells,Vermont,New England,United States,2013-04-06T00:00:00,2300,0,7,false
+1004,Customer 1004,Gift Store,No Buying Group,Wesson,Arkansas,Southeast,United States,2013-04-01T00:00:00,3600,0,7,false
+1028,Customer 1028,Gift Store,No Buying Group,Wray,Colorado,Rocky Mountain,United States,2014-05-14T00:00:00,2400,0,7,false
+1035,Customer 1035,Computer Store,No Buying Group,Wright City,Oklahoma,Southwest,United States,2014-11-08T00:00:00,3300,0,7,false
+1049,Customer 1049,Corporate,No Buying Group,Yampa,Colorado,Rocky Mountain,United States,2015-08-13T00:00:00,1200,0,7,false

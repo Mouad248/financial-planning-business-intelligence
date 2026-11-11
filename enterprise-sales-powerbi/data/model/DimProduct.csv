@@ -1,0 +1,228 @@
+ProductID,ProductName,Brand,Size,Color,SupplierName,SupplierCategory,UnitPackageType,OuterPackageType,LeadTimeDays,QuantityPerOuter,IsChillerStock,RecommendedRetailPrice,TypicalWeightPerUnit
+1,USB missile launcher (Green),Not Specified,Not Specified,Not Specified,Supplier 007,Novelty Goods Supplier,Each,Each,14,1,false,37.38,0.3
+2,USB rocket launcher (Gray),Not Specified,Not Specified,Steel Gray,Supplier 007,Novelty Goods Supplier,Each,Each,14,1,false,37.38,0.3
+3,Office cube periscope (Black),Not Specified,Not Specified,Black,Supplier 007,Novelty Goods Supplier,Each,Carton,14,10,false,27.66,0.25
+4,USB food flash drive - sushi roll,Not Specified,Not Specified,Not Specified,Supplier 007,Novelty Goods Supplier,Each,Each,14,1,false,47.84,0.05
+5,USB food flash drive - hamburger,Not Specified,Not Specified,Not Specified,Supplier 007,Novelty Goods Supplier,Each,Each,14,1,false,47.84,0.05
+6,USB food flash drive - hot dog,Not Specified,Not Specified,Not Specified,Supplier 007,Novelty Goods Supplier,Each,Each,14,1,false,47.84,0.05
+7,USB food flash drive - pizza slice,Not Specified,Not Specified,Not Specified,Supplier 007,Novelty Goods Supplier,Each,Each,14,1,false,47.84,0.05
+8,USB food flash drive - dim sum 10 drive variety pack,Not Specified,Not Specified,Not Specified,Supplier 007,Novelty Goods Supplier,Packet,Packet,14,1,false,358.8,0.5
+9,USB food flash drive - banana,Not Specified,Not Specified,Not Specified,Supplier 007,Novelty Goods Supplier,Each,Each,14,1,false,47.84,0.05
+10,USB food flash drive - chocolate bar,Not Specified,Not Specified,Not Specified,Supplier 007,Novelty Goods Supplier,Each,Each,14,1,false,47.84,0.05
+11,USB food flash drive - cookie,Not Specified,Not Specified,Not Specified,Supplier 007,Novelty Goods Supplier,Each,Each,14,1,false,47.84,0.05
+12,USB food flash drive - donut,Not Specified,Not Specified,Not Specified,Supplier 007,Novelty Goods Supplier,Each,Each,14,1,false,47.84,0.05
+13,USB food flash drive - shrimp cocktail,Not Specified,Not Specified,Not Specified,Supplier 007,Novelty Goods Supplier,Each,Each,14,1,false,47.84,0.05
+14,USB food flash drive - fortune cookie,Not Specified,Not Specified,Not Specified,Supplier 007,Novelty Goods Supplier,Each,Each,14,1,false,47.84,0.05
+15,USB food flash drive - dessert 10 drive variety pack,Not Specified,Not Specified,Not Specified,Supplier 007,Novelty Goods Supplier,Packet,Packet,14,1,false,358.8,0.5
+16,DBA joke mug - mind if I join you? (White),Not Specified,Not Specified,White,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+17,DBA joke mug - mind if I join you? (Black),Not Specified,Not Specified,Black,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+18,DBA joke mug - daaaaaa-ta (White),Not Specified,Not Specified,White,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+19,DBA joke mug - daaaaaa-ta (Black),Not Specified,Not Specified,Black,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+20,DBA joke mug - you might be a DBA if (White),Not Specified,Not Specified,White,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+21,DBA joke mug - you might be a DBA if (Black),Not Specified,Not Specified,Black,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+22,DBA joke mug - it depends (White),Not Specified,Not Specified,White,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+23,DBA joke mug - it depends (Black),Not Specified,Not Specified,Black,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+24,DBA joke mug - I will get you in order (White),Not Specified,Not Specified,White,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+25,DBA joke mug - I will get you in order (Black),Not Specified,Not Specified,Black,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+26,DBA joke mug - SELECT caffeine FROM mug (White),Not Specified,Not Specified,White,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+27,DBA joke mug - SELECT caffeine FROM mug (Black),Not Specified,Not Specified,Black,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+28,DBA joke mug - two types of DBAs (White),Not Specified,Not Specified,White,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+29,DBA joke mug - two types of DBAs (Black),Not Specified,Not Specified,Black,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+30,Developer joke mug - Oct 31 = Dec 25 (White),Not Specified,Not Specified,White,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+31,Developer joke mug - Oct 31 = Dec 25 (Black),Not Specified,Not Specified,Black,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+32,Developer joke mug - that's a hardware problem (White),Not Specified,Not Specified,White,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+33,Developer joke mug - that's a hardware problem (Black),Not Specified,Not Specified,Black,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+34,Developer joke mug - fun was unexpected at this time (White),Not Specified,Not Specified,White,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+35,Developer joke mug - fun was unexpected at this time (Black),Not Specified,Not Specified,Black,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+36,Developer joke mug - when your hammer is C++ (White),Not Specified,Not Specified,White,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+37,Developer joke mug - when your hammer is C++ (Black),Not Specified,Not Specified,Black,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+38,Developer joke mug - inheritance is the OO way to become wealthy (White),Not Specified,Not Specified,White,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+39,Developer joke mug - inheritance is the OO way to become wealthy (Black),Not Specified,Not Specified,Black,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+40,"Developer joke mug - (hip, hip, array) (White)",Not Specified,Not Specified,White,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+41,"Developer joke mug - (hip, hip, array) (Black)",Not Specified,Not Specified,Black,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+42,Developer joke mug - understanding recursion requires understanding recursion (White),Not Specified,Not Specified,White,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+43,Developer joke mug - understanding recursion requires understanding recursion (Black),Not Specified,Not Specified,Black,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+44,Developer joke mug - there are 10 types of people in the world (White),Not Specified,Not Specified,White,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+45,Developer joke mug - there are 10 types of people in the world (Black),Not Specified,Not Specified,Black,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+46,Developer joke mug - a foo walks into a bar (White),Not Specified,Not Specified,White,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+47,Developer joke mug - a foo walks into a bar (Black),Not Specified,Not Specified,Black,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+48,Developer joke mug - this code was generated by a tool (White),Not Specified,Not Specified,White,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+49,Developer joke mug - this code was generated by a tool (Black),Not Specified,Not Specified,Black,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+50,Developer joke mug - old C developers never die (White),Not Specified,Not Specified,White,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+51,Developer joke mug - old C developers never die (Black),Not Specified,Not Specified,Black,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+52,IT joke mug - keyboard not found … press F1 to continue (White),Not Specified,Not Specified,White,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+53,IT joke mug - keyboard not found … press F1 to continue (Black),Not Specified,Not Specified,Black,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+54,IT joke mug - that behavior is by design (White),Not Specified,Not Specified,White,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+55,IT joke mug - that behavior is by design (Black),Not Specified,Not Specified,Black,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+56,IT joke mug - hardware: part of the computer that can be kicked (White),Not Specified,Not Specified,White,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+57,IT joke mug - hardware: part of the computer that can be kicked (Black),Not Specified,Not Specified,Black,Supplier 004,Novelty Goods Supplier,Each,Each,12,1,false,19.44,0.15
+58,RC toy sedan car with remote control (Black) 1/50 scale,Northwind,1/50 scale,Black,Supplier 006,Toy Supplier,Each,Each,14,1,false,37.38,1.5
+59,RC toy sedan car with remote control (Red) 1/50 scale,Northwind,1/50 scale,Red,Supplier 006,Toy Supplier,Each,Each,14,1,false,37.38,1.5
+60,RC toy sedan car with remote control (Blue) 1/50 scale,Northwind,1/50 scale,Blue,Supplier 006,Toy Supplier,Each,Each,14,1,false,37.38,1.5
+61,RC toy sedan car with remote control (Green) 1/50 scale,Northwind,1/50 scale,Not Specified,Supplier 006,Toy Supplier,Each,Each,14,1,false,37.38,1.5
+62,RC toy sedan car with remote control (Yellow) 1/50 scale,Northwind,1/50 scale,Yellow,Supplier 006,Toy Supplier,Each,Each,14,1,false,37.38,1.5
+63,RC toy sedan car with remote control (Pink) 1/50 scale,Northwind,1/50 scale,Not Specified,Supplier 006,Toy Supplier,Each,Each,14,1,false,37.38,1.5
+64,RC vintage American toy coupe with remote control (Red) 1/50 scale,Northwind,1/50 scale,Red,Supplier 006,Toy Supplier,Each,Each,14,1,false,44.85,1.7
+65,RC vintage American toy coupe with remote control (Black) 1/50 scale,Northwind,1/50 scale,Black,Supplier 006,Toy Supplier,Each,Each,14,1,false,44.85,1.7
+66,RC big wheel monster truck with remote control (Black) 1/50 scale,Northwind,1/50 scale,Black,Supplier 006,Toy Supplier,Each,Each,14,1,false,67.28,1.8
+67,Ride on toy sedan car (Black) 1/12 scale,Northwind,1/12 scale,Black,Supplier 006,Toy Supplier,Each,Each,14,1,false,343.85,15
+68,Ride on toy sedan car (Red) 1/12 scale,Northwind,1/12 scale,Red,Supplier 006,Toy Supplier,Each,Each,14,1,false,343.85,15
+69,Ride on toy sedan car (Blue) 1/12 scale,Northwind,1/12 scale,Blue,Supplier 006,Toy Supplier,Each,Each,14,1,false,343.85,15
+70,Ride on toy sedan car (Green) 1/12 scale,Northwind,1/12 scale,Not Specified,Supplier 006,Toy Supplier,Each,Each,14,1,false,343.85,15
+71,Ride on toy sedan car (Yellow) 1/12 scale,Northwind,1/12 scale,Yellow,Supplier 006,Toy Supplier,Each,Each,14,1,false,343.85,15
+72,Ride on toy sedan car (Pink) 1/12 scale,Northwind,1/12 scale,Not Specified,Supplier 006,Toy Supplier,Each,Each,14,1,false,343.85,15
+73,Ride on vintage American toy coupe (Red) 1/12 scale,Northwind,1/12 scale,Red,Supplier 006,Toy Supplier,Each,Each,14,1,false,426.08,18
+74,Ride on vintage American toy coupe (Black) 1/12 scale,Northwind,1/12 scale,Black,Supplier 006,Toy Supplier,Each,Each,14,1,false,426.08,18
+75,Ride on big wheel monster truck (Black) 1/12 scale,Northwind,1/12 scale,Black,Supplier 006,Toy Supplier,Each,Each,14,1,false,515.78,21
+76,"""The Gu"" red shirt XML tag t-shirt (White) 3XS",Not Specified,3XS,White,Supplier 003,Clothing Supplier,Each,Carton,7,12,false,26.91,0.25
+77,"""The Gu"" red shirt XML tag t-shirt (White) XXS",Not Specified,XXS,White,Supplier 003,Clothing Supplier,Each,Carton,7,12,false,26.91,0.25
+78,"""The Gu"" red shirt XML tag t-shirt (White) XS",Not Specified,XS,White,Supplier 003,Clothing Supplier,Each,Carton,7,12,false,26.91,0.25
+79,"""The Gu"" red shirt XML tag t-shirt (White) S",Not Specified,S,White,Supplier 003,Clothing Supplier,Each,Carton,7,12,false,26.91,0.3
+80,"""The Gu"" red shirt XML tag t-shirt (White) M",Not Specified,M,White,Supplier 003,Clothing Supplier,Each,Carton,7,12,false,26.91,0.35
+81,"""The Gu"" red shirt XML tag t-shirt (White) L",Not Specified,L,White,Supplier 003,Clothing Supplier,Each,Carton,7,12,false,26.91,0.35
+82,"""The Gu"" red shirt XML tag t-shirt (White) XL",Not Specified,XL,White,Supplier 003,Clothing Supplier,Each,Carton,7,12,false,26.91,0.35
+83,"""The Gu"" red shirt XML tag t-shirt (White) XXL",Not Specified,XXL,White,Supplier 003,Clothing Supplier,Each,Carton,7,12,false,26.91,0.4
+84,"""The Gu"" red shirt XML tag t-shirt (White) 3XL",Not Specified,3XL,White,Supplier 003,Clothing Supplier,Each,Carton,7,12,false,26.91,0.4
+85,"""The Gu"" red shirt XML tag t-shirt (White) 4XL",Not Specified,4XL,White,Supplier 003,Clothing Supplier,Each,Carton,7,12,false,26.91,0.4
+86,"""The Gu"" red shirt XML tag t-shirt (White) 5XL",Not Specified,5XL,White,Supplier 003,Clothing Supplier,Each,Carton,7,12,false,26.91,0.4
+87,"""The Gu"" red shirt XML tag t-shirt (White) 6XL",Not Specified,6XL,White,Supplier 003,Clothing Supplier,Each,Carton,7,12,false,26.91,0.4
+88,"""The Gu"" red shirt XML tag t-shirt (White) 7XL",Not Specified,7XL,White,Supplier 003,Clothing Supplier,Each,Carton,7,12,false,26.91,0.45
+89,"""The Gu"" red shirt XML tag t-shirt (Black) 3XS",Not Specified,3XS,Black,Supplier 003,Clothing Supplier,Each,Carton,7,12,false,26.91,0.25
+90,"""The Gu"" red shirt XML tag t-shirt (Black) XXS",Not Specified,XXS,Black,Supplier 003,Clothing Supplier,Each,Carton,7,12,false,26.91,0.25
+91,"""The Gu"" red shirt XML tag t-shirt (Black) XS",Not Specified,XS,Black,Supplier 003,Clothing Supplier,Each,Carton,7,12,false,26.91,0.25
+92,"""The Gu"" red shirt XML tag t-shirt (Black) S",Not Specified,S,Black,Supplier 003,Clothing Supplier,Each,Carton,7,12,false,26.91,0.3
+93,"""The Gu"" red shirt XML tag t-shirt (Black) M",Not Specified,M,Black,Supplier 003,Clothing Supplier,Each,Carton,7,12,false,26.91,0.35
+94,"""The Gu"" red shirt XML tag t-shirt (Black) L",Not Specified,L,Black,Supplier 003,Clothing Supplier,Each,Carton,7,12,false,26.91,0.35
+95,"""The Gu"" red shirt XML tag t-shirt (Black) XL",Not Specified,XL,Black,Supplier 003,Clothing Supplier,Each,Carton,7,12,false,26.91,0.35
+96,"""The Gu"" red shirt XML tag t-shirt (Black) XXL",Not Specified,XXL,Black,Supplier 003,Clothing Supplier,Each,Carton,7,12,false,26.91,0.4
+97,"""The Gu"" red shirt XML tag t-shirt (Black) 3XL",Not Specified,3XL,Black,Supplier 003,Clothing Supplier,Each,Carton,7,12,false,26.91,0.4
+98,"""The Gu"" red shirt XML tag t-shirt (Black) 4XL",Not Specified,4XL,Black,Supplier 003,Clothing Supplier,Each,Carton,7,12,false,26.91,0.4
+99,"""The Gu"" red shirt XML tag t-shirt (Black) 5XL",Not Specified,5XL,Black,Supplier 003,Clothing Supplier,Each,Carton,7,12,false,26.91,0.4
+100,"""The Gu"" red shirt XML tag t-shirt (Black) 6XL",Not Specified,6XL,Black,Supplier 003,Clothing Supplier,Each,Carton,7,12,false,26.91,0.4
+101,"""The Gu"" red shirt XML tag t-shirt (Black) 7XL",Not Specified,7XL,Black,Supplier 003,Clothing Supplier,Each,Carton,7,12,false,26.91,0.45
+102,Alien officer hoodie (Black) XL,Not Specified,XL,Black,Supplier 003,Clothing Supplier,Each,Each,12,1,false,52.33,0.4
+103,Alien officer hoodie (Black) XXL,Not Specified,XXL,Black,Supplier 003,Clothing Supplier,Each,Each,12,1,false,52.33,0.4
+104,Alien officer hoodie (Black) 3XL,Not Specified,3XL,Black,Supplier 003,Clothing Supplier,Each,Each,12,1,false,52.33,0.4
+105,Alien officer hoodie (Black) 4XL,Not Specified,4XL,Black,Supplier 003,Clothing Supplier,Each,Each,12,1,false,52.33,0.4
+106,Alien officer hoodie (Black) 5XL,Not Specified,5XL,Black,Supplier 003,Clothing Supplier,Each,Each,12,1,false,52.33,0.4
+107,Superhero action jacket (Blue) 3XS,Not Specified,3XS,Blue,Supplier 003,Clothing Supplier,Each,Each,12,1,false,37.38,0.3
+108,Superhero action jacket (Blue) XXS,Not Specified,XXS,Blue,Supplier 003,Clothing Supplier,Each,Each,12,1,false,37.38,0.3
+109,Superhero action jacket (Blue) XS,Not Specified,XS,Blue,Supplier 003,Clothing Supplier,Each,Each,12,1,false,37.38,0.3
+110,Superhero action jacket (Blue) S,Not Specified,S,Blue,Supplier 003,Clothing Supplier,Each,Each,12,1,false,37.38,0.3
+111,Superhero action jacket (Blue) M,Not Specified,M,Blue,Supplier 003,Clothing Supplier,Each,Each,12,1,false,44.85,0.35
+112,Superhero action jacket (Blue) L,Not Specified,L,Blue,Supplier 003,Clothing Supplier,Each,Each,12,1,false,44.85,0.35
+113,Superhero action jacket (Blue) XL,Not Specified,XL,Blue,Supplier 003,Clothing Supplier,Each,Each,12,1,false,44.85,0.35
+114,Superhero action jacket (Blue) XXL,Not Specified,XXL,Blue,Supplier 003,Clothing Supplier,Each,Each,12,1,false,44.85,0.35
+115,Superhero action jacket (Blue) 3XL,Not Specified,3XL,Blue,Supplier 003,Clothing Supplier,Each,Each,12,1,false,50.83,0.4
+116,Superhero action jacket (Blue) 4XL,Not Specified,4XL,Blue,Supplier 003,Clothing Supplier,Each,Each,12,1,false,50.83,0.4
+117,Superhero action jacket (Blue) 5XL,Not Specified,5XL,Blue,Supplier 003,Clothing Supplier,Each,Each,12,1,false,50.83,0.4
+118,Dinosaur battery-powered slippers (Green) S,Not Specified,S,Not Specified,Supplier 003,Clothing Supplier,Each,Each,12,1,false,47.84,0.35
+119,Dinosaur battery-powered slippers (Green) M,Not Specified,M,Not Specified,Supplier 003,Clothing Supplier,Each,Each,12,1,false,47.84,0.35
+120,Dinosaur battery-powered slippers (Green) L,Not Specified,L,Not Specified,Supplier 003,Clothing Supplier,Each,Each,12,1,false,47.84,0.35
+121,Dinosaur battery-powered slippers (Green) XL,Not Specified,XL,Not Specified,Supplier 003,Clothing Supplier,Each,Each,12,1,false,47.84,0.4
+122,Ogre battery-powered slippers (Green) S,Not Specified,S,Not Specified,Supplier 003,Clothing Supplier,Each,Each,12,1,false,47.84,0.35
+123,Ogre battery-powered slippers (Green) M,Not Specified,M,Not Specified,Supplier 003,Clothing Supplier,Each,Each,12,1,false,47.84,0.35
+124,Ogre battery-powered slippers (Green) L,Not Specified,L,Not Specified,Supplier 003,Clothing Supplier,Each,Each,12,1,false,47.84,0.35
+125,Ogre battery-powered slippers (Green) XL,Not Specified,XL,Not Specified,Supplier 003,Clothing Supplier,Each,Each,12,1,false,47.84,0.4
+126,Plush shark slippers (Gray) S,Not Specified,S,Steel Gray,Supplier 003,Clothing Supplier,Each,Each,12,1,false,47.84,0.35
+127,Plush shark slippers (Gray) M,Not Specified,M,Steel Gray,Supplier 003,Clothing Supplier,Each,Each,12,1,false,47.84,0.35
+128,Plush shark slippers (Gray) L,Not Specified,L,Steel Gray,Supplier 003,Clothing Supplier,Each,Each,12,1,false,47.84,0.35
+129,Plush shark slippers (Gray) XL,Not Specified,XL,Steel Gray,Supplier 003,Clothing Supplier,Each,Each,12,1,false,47.84,0.4
+130,Furry gorilla with big eyes slippers (Black) S,Not Specified,S,Black,Supplier 003,Clothing Supplier,Each,Each,12,1,false,47.84,0.35
+131,Furry gorilla with big eyes slippers (Black) M,Not Specified,M,Black,Supplier 003,Clothing Supplier,Each,Each,12,1,false,47.84,0.35
+132,Furry gorilla with big eyes slippers (Black) L,Not Specified,L,Black,Supplier 003,Clothing Supplier,Each,Each,12,1,false,47.84,0.35
+133,Furry gorilla with big eyes slippers (Black) XL,Not Specified,XL,Black,Supplier 003,Clothing Supplier,Each,Each,12,1,false,47.84,0.4
+134,Animal with big feet slippers (Brown) S,Not Specified,S,Not Specified,Supplier 003,Clothing Supplier,Each,Each,12,1,false,47.84,0.35
+135,Animal with big feet slippers (Brown) M,Not Specified,M,Not Specified,Supplier 003,Clothing Supplier,Each,Each,12,1,false,47.84,0.35
+136,Animal with big feet slippers (Brown) L,Not Specified,L,Not Specified,Supplier 003,Clothing Supplier,Each,Each,12,1,false,47.84,0.35
+137,Animal with big feet slippers (Brown) XL,Not Specified,XL,Not Specified,Supplier 003,Clothing Supplier,Each,Each,12,1,false,47.84,0.4
+138,Furry animal socks (Pink) S,Not Specified,S,Not Specified,Supplier 003,Clothing Supplier,Pair,Packet,12,12,false,7.48,0.1
+139,Furry animal socks (Pink) M,Not Specified,M,Not Specified,Supplier 003,Clothing Supplier,Pair,Packet,12,12,false,7.48,0.1
+140,Furry animal socks (Pink) L,Not Specified,L,Not Specified,Supplier 003,Clothing Supplier,Pair,Packet,12,12,false,7.48,0.1
+141,Furry animal socks (Pink) XL,Not Specified,XL,Not Specified,Supplier 003,Clothing Supplier,Pair,Packet,12,12,false,7.48,0.1
+142,Halloween zombie mask (Light Brown) S,Not Specified,S,Light Brown,Supplier 003,Clothing Supplier,Each,Carton,12,12,false,26.91,0.3
+143,Halloween zombie mask (Light Brown) M,Not Specified,M,Light Brown,Supplier 003,Clothing Supplier,Each,Carton,12,12,false,26.91,0.3
+144,Halloween zombie mask (Light Brown) L,Not Specified,L,Light Brown,Supplier 003,Clothing Supplier,Each,Carton,12,12,false,26.91,0.3
+145,Halloween zombie mask (Light Brown) XL,Not Specified,XL,Light Brown,Supplier 003,Clothing Supplier,Each,Carton,12,12,false,26.91,0.3
+146,Halloween skull mask (Gray) S,Not Specified,S,Steel Gray,Supplier 003,Clothing Supplier,Each,Carton,12,12,false,26.91,0.3
+147,Halloween skull mask (Gray) M,Not Specified,M,Steel Gray,Supplier 003,Clothing Supplier,Each,Carton,12,12,false,26.91,0.3
+148,Halloween skull mask (Gray) L,Not Specified,L,Steel Gray,Supplier 003,Clothing Supplier,Each,Carton,12,12,false,26.91,0.3
+149,Halloween skull mask (Gray) XL,Not Specified,XL,Steel Gray,Supplier 003,Clothing Supplier,Each,Carton,12,12,false,26.91,0.3
+150,Pack of 12 action figures (variety),Not Specified,Not Specified,Not Specified,Supplier 002,Novelty Goods Supplier,Packet,Packet,2,1,false,23.92,0.25
+151,Pack of 12 action figures (male),Not Specified,Not Specified,Not Specified,Supplier 002,Novelty Goods Supplier,Packet,Packet,2,1,false,23.92,0.25
+152,Pack of 12 action figures (female),Not Specified,Not Specified,Not Specified,Supplier 002,Novelty Goods Supplier,Packet,Packet,2,1,false,23.92,0.25
+153,Small sized bubblewrap roll 10m,Not Specified,10m,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,10,false,6.73,5
+154,Medium sized bubblewrap roll 20m,Not Specified,20m,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,10,false,29.9,6
+155,Large sized bubblewrap roll 50m,Not Specified,50m,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,10,false,35.88,10
+156,10 mm Double sided bubble wrap 10m,Not Specified,10m,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,10,false,22.43,5
+157,10 mm Double sided bubble wrap 20m,Not Specified,20m,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,10,false,44.85,6
+158,10 mm Double sided bubble wrap 50m,Not Specified,50m,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,10,false,156.98,10
+159,20 mm Double sided bubble wrap 10m,Not Specified,10m,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,10,false,26.91,5
+160,20 mm Double sided bubble wrap 20m,Not Specified,20m,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,10,false,49.34,6
+161,20 mm Double sided bubble wrap 50m,Not Specified,50m,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,10,false,161.46,10
+162,32 mm Double sided bubble wrap 10m,Not Specified,10m,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,10,false,32.89,5
+163,32 mm Double sided bubble wrap 20m,Not Specified,20m,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,10,false,55.32,6
+164,32 mm Double sided bubble wrap 50m,Not Specified,50m,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,10,false,167.44,10
+165,10 mm Anti static bubble wrap (Blue) 10m,Not Specified,10m,Blue,Supplier 005,Packaging Supplier,Each,Each,14,10,false,38.87,5
+166,10 mm Anti static bubble wrap (Blue) 20m,Not Specified,20m,Blue,Supplier 005,Packaging Supplier,Each,Each,14,10,false,62.79,6
+167,10 mm Anti static bubble wrap (Blue) 50m,Not Specified,50m,Blue,Supplier 005,Packaging Supplier,Each,Each,14,10,false,148.01,10
+168,20 mm Anti static bubble wrap (Blue) 10m,Not Specified,10m,Blue,Supplier 005,Packaging Supplier,Each,Each,14,10,false,43.36,5
+169,20 mm Anti static bubble wrap (Blue) 20m,Not Specified,20m,Blue,Supplier 005,Packaging Supplier,Each,Each,14,10,false,67.28,6
+170,20 mm Anti static bubble wrap (Blue) 50m,Not Specified,50m,Blue,Supplier 005,Packaging Supplier,Each,Each,14,10,false,152.49,10
+171,32 mm Anti static bubble wrap (Blue) 10m,Not Specified,10m,Blue,Supplier 005,Packaging Supplier,Each,Each,14,10,false,47.84,5
+172,32 mm Anti static bubble wrap (Blue) 20m,Not Specified,20m,Blue,Supplier 005,Packaging Supplier,Each,Each,14,10,false,71.76,6
+173,32 mm Anti static bubble wrap (Blue) 50m,Not Specified,50m,Blue,Supplier 005,Packaging Supplier,Each,Each,14,10,false,156.98,10
+174,Bubblewrap dispenser (Black) 1.5m,Not Specified,1.5m,Black,Supplier 005,Packaging Supplier,Each,Each,14,1,false,358.8,10
+175,Bubblewrap dispenser (Blue) 1.5m,Not Specified,1.5m,Blue,Supplier 005,Packaging Supplier,Each,Each,14,1,false,358.8,10
+176,Bubblewrap dispenser (Red) 1.5m,Not Specified,1.5m,Red,Supplier 005,Packaging Supplier,Each,Each,14,1,false,358.8,10
+177,Shipping carton (Brown) 413x285x187mm,Not Specified,413x285x187mm,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,25,false,1.57,0.3
+178,Shipping carton (Brown) 500x310x310mm,Not Specified,500x310x310mm,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,25,false,3.81,0.4
+179,Shipping carton (Brown) 229x229x229mm,Not Specified,229x229x229mm,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,25,false,1.57,0.3
+180,Shipping carton (Brown) 279x254x217mm,Not Specified,279x254x217mm,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,25,false,1.66,0.3
+181,Shipping carton (Brown) 356x229x229mm,Not Specified,356x229x229mm,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,25,false,1.7,0.4
+182,Shipping carton (Brown) 457x279x279mm,Not Specified,457x279x279mm,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,25,false,1.91,0.4
+183,Shipping carton (Brown) 480x270x320mm,Not Specified,480x270x320mm,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,25,false,4.1,0.4
+184,Shipping carton (Brown) 305x305x305mm,Not Specified,305x305x305mm,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,25,false,5.23,0.3
+185,Shipping carton (Brown) 356x356x279mm,Not Specified,356x356x279mm,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,25,false,3.05,0.3
+186,Shipping carton (Brown) 457x457x457mm,Not Specified,457x457x457mm,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,25,false,3.14,0.4
+187,Express post box 5kg (White) 350x280x130mm,Not Specified,350x280x130mm,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,25,false,1.42,0.2
+188,3 kg Courier post bag (White) 300x190x95mm,Not Specified,300x190x95mm,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,25,false,0.99,0.1
+189,Clear packaging tape 48mmx75m,Not Specified,48mmx75m,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,26,false,4.34,0.5
+190,Clear packaging tape 48mmx100m,Not Specified,48mmx100m,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,20,false,5.23,0.7
+191,Black and orange fragile despatch tape 48mmx75m,Not Specified,48mmx75m,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,36,false,5.53,0.5
+192,Black and orange fragile despatch tape 48mmx100m,Not Specified,48mmx100m,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,36,false,6.13,0.7
+193,Black and orange glass with care despatch tape 48mmx75m,Not Specified,48mmx75m,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,24,false,5.53,0.5
+194,Black and orange glass with care despatch tape  48mmx100m,Not Specified,48mmx100m,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,24,false,6.13,0.7
+195,Black and orange handle with care despatch tape  48mmx75m,Not Specified,48mmx75m,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,24,false,5.53,0.5
+196,Black and orange handle with care despatch tape  48mmx100m,Not Specified,48mmx100m,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,24,false,6.13,0.7
+197,Black and orange this way up despatch tape 48mmx75m,Not Specified,48mmx75m,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,24,false,5.53,0.5
+198,Black and orange this way up despatch tape  48mmx100m,Not Specified,48mmx100m,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,24,false,6.13,0.7
+199,Black and yellow heavy despatch tape  48mmx75m,Not Specified,48mmx75m,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,24,false,5.53,0.5
+200,Black and yellow heavy despatch tape 48mmx100m,Not Specified,48mmx100m,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,24,false,6.13,0.7
+201,Red and white urgent despatch tape 48mmx75m,Not Specified,48mmx75m,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,24,false,5.53,0.5
+202,Red and white urgent  heavy despatch tape  48mmx100m,Not Specified,48mmx100m,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,24,false,6.13,0.7
+203,Tape dispenser (Black),Not Specified,Not Specified,Not Specified,Supplier 005,Packaging Supplier,Each,Each,20,10,false,47.84,1
+204,Tape dispenser (Red),Not Specified,Not Specified,Not Specified,Supplier 005,Packaging Supplier,Each,Each,20,10,false,47.84,1
+205,Tape dispenser (Blue),Not Specified,Not Specified,Not Specified,Supplier 005,Packaging Supplier,Each,Each,20,10,false,47.84,1
+206,Permanent marker black 5mm nib (Black) 5mm,Not Specified,5mm,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,12,false,4.04,0.1
+207,Permanent marker blue 5mm nib (Blue) 5mm,Not Specified,5mm,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,12,false,4.04,0.1
+208,Permanent marker red 5mm nib (Red) 5mm,Not Specified,5mm,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,12,false,4.04,0.1
+209,Packing knife with metal insert blade (Yellow) 9mm,Not Specified,9mm,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,5,false,2.83,0.5
+210,Packing knife with metal insert blade (Yellow) 18mm,Not Specified,18mm,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,5,false,3.59,0.5
+211,Small 9mm replacement blades 9mm,Not Specified,9mm,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,10,false,6.13,0.7
+212,Large  replacement blades 18mm,Not Specified,18mm,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,10,false,6.43,0.8
+213,Air cushion film 200mmx100mm 325m,Not Specified,325m,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,1,false,130.07,5
+214,Air cushion film 200mmx200mm 325m,Not Specified,325m,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,1,false,134.55,6
+215,Air cushion machine (Blue),Not Specified,Not Specified,Not Specified,Supplier 005,Packaging Supplier,Each,Each,20,1,false,2839.01,10
+216,Void fill 100 L bag (White) 100L,Not Specified,100L,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,10,false,18.69,0.25
+217,Void fill 200 L bag (White) 200L,Not Specified,200L,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,10,false,37.38,0.5
+218,Void fill 300 L bag (White) 300L,Not Specified,300L,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,10,false,56.06,0.75
+219,Void fill 400 L bag (White) 400L,Not Specified,400L,Not Specified,Supplier 005,Packaging Supplier,Each,Each,14,10,false,74.75,1
+220,Novelty chilli chocolates 250g,Not Specified,250g,Not Specified,Supplier 001,Novelty Goods Supplier,Bag,Carton,3,24,true,12.23,0.25
+221,Novelty chilli chocolates 500g,Not Specified,500g,Not Specified,Supplier 001,Novelty Goods Supplier,Bag,Carton,3,12,true,20.74,0.5
+222,Chocolate beetles 250g,Not Specified,250g,Not Specified,Supplier 001,Novelty Goods Supplier,Bag,Carton,3,24,true,12.23,0.25
+223,Chocolate echidnas 250g,Not Specified,250g,Not Specified,Supplier 001,Novelty Goods Supplier,Bag,Carton,3,24,true,12.23,0.25
+224,Chocolate frogs 250g,Not Specified,250g,Not Specified,Supplier 001,Novelty Goods Supplier,Bag,Carton,3,24,true,12.23,0.25
+225,Chocolate sharks 250g,Not Specified,250g,Not Specified,Supplier 001,Novelty Goods Supplier,Bag,Carton,3,24,true,12.23,0.25
+226,White chocolate snow balls 250g,Not Specified,250g,Not Specified,Supplier 001,Novelty Goods Supplier,Bag,Carton,3,24,true,12.23,0.25
+227,White chocolate moon rocks 250g,Not Specified,250g,Not Specified,Supplier 001,Novelty Goods Supplier,Bag,Carton,3,24,true,12.23,0.25

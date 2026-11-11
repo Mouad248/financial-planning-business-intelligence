@@ -1,0 +1,40 @@
+# SQL Server database / backup files
+*.bak
+*.mdf
+*.ldf
+
+# Power BI temporary / recovery files
+*.tmp
+*.temp
+*.lock
+*.autorecovery
+
+# Microsoft Office temporary files
+~$*.xlsx
+~$*.xls
+~$*.csv
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# Editor / IDE files
+.vscode/
+.vs/
+
+# Credentials / secrets
+*.key
+*.pem
+*.pfx
+*.p12
+credentials.json
+service-account*.json
+
+# Logs
+*.log
+# Local recovery originals, raw caches and logs: never publish
+.private/
+
+**/.pbi/
+
+dist/

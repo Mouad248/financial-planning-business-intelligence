@@ -1,0 +1,16 @@
+{
+  "native_extracted_project_opened": true,
+  "full_refresh_of_included_data_and_planning_files": true,
+  "native_dax_checks": 56,
+  "native_dax_passed": 56,
+  "python_recovery_tests_passed": 7,
+  "measures_retained": 66,
+  "relationships_retained": 9,
+  "tables_retained": 14,
+  "pages_retained": 5,
+  "visuals_retained": 59,
+  "source_zip_integrity": "Every source/data file matched its SHA-256 manifest",
+  "private_raw_exports_and_original_pbix_excluded": true,
+  "model_caches_excluded": true,
+  "sql_server_route_executed": false
+}

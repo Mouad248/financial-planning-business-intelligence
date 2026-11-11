@@ -1,0 +1,11 @@
+{
+  "tables": 14,
+  "measures": 66,
+  "relationships": 9,
+  "pages": 5,
+  "visuals": 59,
+  "dax_expressions_unchanged": true,
+  "relationship_definitions_unchanged": true,
+  "executive_budget_card_uses_comparable_period_measure": true,
+  "native_full_refresh_executed": true
+}

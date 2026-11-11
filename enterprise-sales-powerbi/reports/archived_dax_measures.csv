@@ -1,0 +1,445 @@
+TableName,Name,Expression,DisplayFolder,Description
+_Measures,Revenue,SUM(FactSales[NetSalesAmount]),,
+_Measures,Cost of Goods Sold,SUM(FactSales[CostAmount]),,
+_Measures,Gross Profit,SUM(FactSales[GrossProfitAmount]),,
+_Measures,Gross Margin %,"
+DIVIDE(
+    [Gross Profit],
+    [Revenue]
+)",,
+_Measures,Units Sold,"
+SUM(FactSales[Quantity])",,
+_Measures,Invoice Count,"
+DISTINCTCOUNT(FactSales[InvoiceID])",,
+_Measures,Tax Amount,"
+SUM(FactSales[TaxAmount])",,
+_Measures,Invoice Value,"
+SUM(FactSales[InvoiceValueAmount])",,
+_Measures,Average Revenue per Invoice,"
+DIVIDE(
+    [Revenue],
+    [Invoice Count]
+)",,
+_Measures,Loss-Making Lines,"
+SUM(FactSales[IsLossMaking])",,
+_Measures,Loss-Making Revenue,"
+CALCULATE(
+    [Revenue],
+    FactSales[IsLossMaking] = 1
+)",,
+_Measures,Loss-Making Revenue %,"
+DIVIDE(
+    [Loss-Making Revenue],
+    [Revenue]
+)",,
+_Measures,Loss Amount,"
+CALCULATE(
+    [Gross Profit],
+    FactSales[IsLossMaking] = 1
+)",,
+_Measures,Revenue PY,"
+CALCULATE(
+    [Revenue],
+    SAMEPERIODLASTYEAR(DimDate[Date])
+)",,
+_Measures,Revenue YoY Change,"
+VAR PreviousYearRevenue = [Revenue PY]
+
+RETURN
+    IF(
+        ISBLANK(PreviousYearRevenue),
+        BLANK(),
+        [Revenue] - PreviousYearRevenue
+    )",,
+_Measures,Revenue YoY Growth %,"
+DIVIDE(
+    [Revenue YoY Change],
+    [Revenue PY]
+)",,
+_Measures,Revenue YTD,"
+TOTALYTD(
+    [Revenue],
+    DimDate[Date]
+)",,
+_Measures,Gross Profit YTD,"
+TOTALYTD(
+    [Gross Profit],
+    DimDate[Date]
+)",,
+_Measures,Latest Sales Date,"
+CALCULATE(
+    MAX(FactSales[InvoiceDate]),
+    REMOVEFILTERS(DimDate)
+)",,
+_Measures,Revenue PYTD,"
+VAR LastDateWithSales =
+    MAX(FactSales[InvoiceDate])
+
+VAR PreviousYearStart =
+    DATE(
+        YEAR(LastDateWithSales) - 1,
+        1,
+        1
+    )
+
+VAR PreviousYearEnd =
+    DATE(
+        YEAR(LastDateWithSales) - 1,
+        MONTH(LastDateWithSales),
+        DAY(LastDateWithSales)
+    )
+
+RETURN
+    CALCULATE(
+        [Revenue],
+        REMOVEFILTERS(DimDate),
+        DATESBETWEEN(
+            DimDate[Date],
+            PreviousYearStart,
+            PreviousYearEnd
+        )
+    )",,
+_Measures,Revenue YTD YoY Change,"
+[Revenue YTD] - [Revenue PYTD]",,
+_Measures,Revenue YTD YoY Growth %,"
+DIVIDE(
+    [Revenue YTD YoY Change],
+    [Revenue PYTD]
+)",,
+_Measures,Rolling 12M Revenue,"
+VAR LastVisibleDate =
+    MAX(DimDate[Date])
+
+VAR LastDateWithSales =
+    [Latest Sales Date]
+
+RETURN
+    IF(
+        LastVisibleDate > LastDateWithSales,
+        BLANK(),
+        CALCULATE(
+            [Revenue],
+            DATESINPERIOD(
+                DimDate[Date],
+                LastVisibleDate,
+                -12,
+                MONTH
+            )
+        )
+    )",,
+_Measures,Sales Lines,"
+COUNTROWS(FactSales)",,
+_Measures,Active Customers,"
+DISTINCTCOUNT(FactSales[CustomerID])",,
+_Measures,Products Sold,"
+DISTINCTCOUNT(FactSales[ProductID])",,
+_Measures,Average Selling Price,"
+DIVIDE(
+    [Revenue],
+    [Units Sold]
+)",,
+_Measures,Gross Profit per Unit,"
+DIVIDE(
+    [Gross Profit],
+    [Units Sold]
+)",,
+_Measures,Loss-Making Line %,"
+DIVIDE(
+    [Loss-Making Lines],
+    [Sales Lines]
+)",,
+_Measures,Loss-Making Products,"
+COUNTROWS(
+    FILTER(
+        VALUES(DimProduct[ProductID]),
+        [Gross Profit] < 0
+    )
+)",,
+_Measures,Product Revenue Rank,"
+IF(
+    ISINSCOPE(DimProduct[ProductName]),
+    RANKX(
+        ALLSELECTED(DimProduct[ProductName]),
+        [Revenue],
+        ,
+        DESC,
+        DENSE
+    )
+)",,
+_Measures,Product Revenue Share %,"
+DIVIDE(
+    [Revenue],
+    CALCULATE(
+        [Revenue],
+        ALLSELECTED(DimProduct[ProductName])
+    )
+)",,
+_Measures,Salesperson Revenue Rank,"
+IF(
+    ISINSCOPE(DimSalesperson[FullName]),
+    RANKX(
+        ALLSELECTED(DimSalesperson[FullName]),
+        [Revenue],
+        ,
+        DESC,
+        DENSE
+    )
+)",,
+_Measures,Customer Revenue Rank,"
+IF(
+    ISINSCOPE(DimCustomer[CustomerName]),
+    RANKX(
+        ALLSELECTED(DimCustomer[CustomerName]),
+        [Revenue],
+        ,
+        DESC,
+        DENSE
+    )
+)",,
+_Measures,Customer Revenue Share %,"
+DIVIDE(
+    [Revenue],
+    CALCULATE(
+        [Revenue],
+        ALLSELECTED(DimCustomer[CustomerName])
+    )
+)",,
+_Measures,Loss-Making Customers,"
+COUNTROWS(
+    FILTER(
+        VALUES(DimCustomer[CustomerID]),
+        [Gross Profit] < 0
+    )
+)",,
+_Measures,Customer Profitability Status,"
+VAR Margin = [Gross Margin %]
+
+RETURN
+    SWITCH(
+        TRUE(),
+        ISBLANK([Revenue]), BLANK(),
+        [Gross Profit] < 0, ""Loss-Making"",
+        Margin < 0.30, ""Low Margin"",
+        Margin < 0.50, ""Medium Margin"",
+        ""High Margin""
+    )",,
+_Measures,Gross Margin Variance vs Overall,"
+[Gross Margin %]
+-
+CALCULATE(
+    [Gross Margin %],
+    ALLSELECTED(DimProduct[ProductName])
+)",,
+Top N Products,Top N Products Value,"SELECTEDVALUE('Top N Products'[Top N Products], 10)",,
+_Measures,Top N Product Filter,"
+VAR SelectedTopN =
+    SELECTEDVALUE(
+        'Top N Products'[Top N Products],
+        10
+    )
+
+VAR ProductRank =
+    [Product Revenue Rank]
+
+RETURN
+    IF(
+        NOT ISBLANK(ProductRank)
+            && ProductRank <= SelectedTopN,
+        1,
+        0
+    )",,
+_Measures,Top N Products Title,"
+VAR SelectedTopN =
+    SELECTEDVALUE(
+        'Top N Products'[Top N Products],
+        10
+    )
+
+RETURN
+    ""Top ""
+        & SelectedTopN
+        & "" Products by Revenue""",,
+Top N Salespeople,Top N Salespeople Value,"SELECTEDVALUE('Top N Salespeople'[Top N Salespeople], 5)",,
+_Measures,Top N Salesperson Filter,"
+VAR SelectedTopN =
+    SELECTEDVALUE(
+        'Top N Salespeople'[Top N Salespeople],
+        5
+    )
+
+VAR SalespersonRank =
+    [Salesperson Revenue Rank]
+
+RETURN
+    IF(
+        NOT ISBLANK(SalespersonRank)
+            && SalespersonRank <= SelectedTopN,
+        1,
+        0
+    )",,
+_Measures,Selected Metric Name,"
+VAR SelectedMetrics =
+    SUMMARIZE(
+        'Metric Selector',
+        'Metric Selector'[Metric Selector],
+        'Metric Selector'[Metric Selector Fields]
+    )
+
+RETURN
+    IF(
+        COUNTROWS(SelectedMetrics) = 1,
+        MAXX(
+            SelectedMetrics,
+            'Metric Selector'[Metric Selector]
+        ),
+        ""Revenue""
+    )",,
+_Measures,Product Metric Title,"
+""Product Performance by ""
+    & [Selected Metric Name]",,
+_Measures,Budget,"
+SUM(FactBudget[BudgetAmount])",,
+_Measures,Budget Variance,"
+[Revenue] - [Budget]",,
+_Measures,Budget Variance %,"
+DIVIDE(
+    [Budget Variance],
+    [Budget]
+)",,
+_Measures,Budget Attainment %,"
+DIVIDE(
+    [Revenue],
+    [Budget]
+)",,
+_Measures,Current Year Budget to Cutoff,"
+VAR LastSalesDate =
+    [Latest Sales Date]
+
+VAR StartOfCurrentYear =
+    DATE(
+        YEAR(LastSalesDate),
+        1,
+        1
+    )
+
+RETURN
+    CALCULATE(
+        [Budget],
+        DATESBETWEEN(
+            DimDate[Date],
+            StartOfCurrentYear,
+            LastSalesDate
+        )
+    )",,
+_Measures,Current Year Budget Variance,"
+[Revenue YTD]
+    - [Current Year Budget to Cutoff]",,
+_Measures,Current Year Budget Variance %,"
+DIVIDE(
+    [Current Year Budget Variance],
+    [Current Year Budget to Cutoff]
+)",,
+_Measures,Budget Row Count,COUNTROWS(FactBudget),,
+_Measures,Salesperson Target,"
+SUM(FactSalespersonTarget[TargetAmount])",,
+_Measures,Target Variance,"
+[Revenue] - [Salesperson Target]",,
+_Measures,Target Variance %,"
+DIVIDE(
+    [Target Variance],
+    [Salesperson Target]
+)",,
+_Measures,Target Achievement %,"
+DIVIDE(
+    [Revenue],
+    [Salesperson Target]
+)",,
+_Measures,Target Performance Status,"
+VAR Achievement =
+    [Target Achievement %]
+
+RETURN
+    SWITCH(
+        TRUE(),
+        ISBLANK(Achievement), BLANK(),
+        Achievement >= 1.05, ""Above Target"",
+        Achievement >= 1.00, ""On Target"",
+        Achievement >= 0.90, ""Slightly Below Target"",
+        ""Below Target""
+    )",,
+_Measures,Salespeople Below Target,"
+COUNTROWS(
+    FILTER(
+        VALUES(DimSalesperson[SalespersonID]),
+        [Target Achievement %] < 1
+            && NOT ISBLANK([Target Achievement %])
+    )
+)",,
+_Measures,Comparable Revenue,"
+VAR FirstBudgetDate =
+    CALCULATE(
+        MIN(FactBudget[BudgetMonth]),
+        REMOVEFILTERS(DimDate)
+    )
+VAR LastSalesDate =
+    [Latest Sales Date]
+RETURN
+    CALCULATE(
+        [Revenue],
+        KEEPFILTERS(
+            DATESBETWEEN(
+                DimDate[Date],
+                FirstBudgetDate,
+                LastSalesDate
+            )
+        )
+    )",,
+_Measures,Comparable Budget,"
+VAR LastSalesDate =
+    [Latest Sales Date]
+RETURN
+    CALCULATE(
+        [Budget],
+        KEEPFILTERS(
+            DimDate[Date] <= LastSalesDate
+        )
+    )",,
+_Measures,Comparable Budget Attainment %,"
+DIVIDE(
+    [Comparable Revenue],
+    [Comparable Budget]
+)",,
+_Measures,Target Row Count,"
+COUNTROWS(FactSalespersonTarget)",,
+_Measures,Comparable Salesperson Target,"
+VAR SelectedYear =
+    SELECTEDVALUE(DimDate[Year])
+
+VAR LastSalesDate =
+    [Latest Sales Date]
+
+VAR MonthsToCompare =
+    SWITCH(
+        TRUE(),
+        ISBLANK(SelectedYear), BLANK(),
+        SelectedYear < YEAR(LastSalesDate), 12,
+        SelectedYear = YEAR(LastSalesDate), MONTH(LastSalesDate),
+        0
+    )
+
+VAR AnnualTarget =
+    [Salesperson Target]
+
+RETURN
+    IF(
+        ISBLANK(AnnualTarget) || ISBLANK(MonthsToCompare),
+        BLANK(),
+        AnnualTarget * DIVIDE(MonthsToCompare, 12)
+    )",,
+_Measures,Comparable Target Variance,"
+[Revenue] - [Comparable Salesperson Target]",,
+_Measures,Comparable Target Achievement %,"
+DIVIDE(
+    [Revenue],
+    [Comparable Salesperson Target]
+)",,

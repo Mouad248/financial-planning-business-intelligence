@@ -1,0 +1,48 @@
+{
+  "date_utc": "2026-11-10",
+  "power_bi_desktop_version": "2.159.883.0",
+  "core_preserved": {
+    "tables": 14,
+    "measures": 66,
+    "relationships": 9,
+    "pages": 5,
+    "visuals": 59,
+    "dax_expressions_unchanged": true,
+    "relationship_definitions_unchanged": true,
+    "executive_budget_card_uses_comparable_period_measure": true,
+    "native_full_refresh_executed": true
+  },
+  "checks": {
+    "native_pbip_opened": true,
+    "full_native_refresh": true,
+    "native_dax_passed": 56,
+    "native_dax_failed": 0,
+    "python_recovery_tests_passed": 7,
+    "native_sales_performance_visual_inspected": true,
+    "native_save_cache_created": true,
+    "native_saved_cache_bytes": 5609566,
+    "planning_input_validation": "36 budget months and 30 targets passed",
+    "changed_python_lint": "passed",
+    "native_original_excel_import_after_metadata_fix": true,
+    "native_planning_target_csv_import": true,
+    "native_extracted_release_dax_passed": 56,
+    "native_extracted_release_refresh": true,
+    "executive_budget_comparison_binding": "Uses existing comparable-period measure; original DAX definitions retained"
+  },
+  "active_sources": "Seven full anonymous transaction/dimension CSV snapshots, original Excel budget workbook, original target CSV; static/calculated tables retained.",
+  "workbook_fix": "Rebound dcterms:W3CDTF namespace in docProps/core.xml. All nine other workbook members byte-identical; native Excel refresh passed afterward.",
+  "scope": "Actual original Power BI semantic model and report, not a replacement web demo. Original native financial totals and all 66 DAX expressions retained.",
+  "not_executed": [
+    "SQL Server restore and SQL view execution",
+    "Power BI Service deployment",
+    "Every possible report interaction"
+  ],
+  "fixes": [
+    "Repaired Excel core-properties date-type namespace, preserving worksheet contents",
+    "Kept budget monetary types as currency",
+    "Restored live original Excel budget and target CSV source workflows",
+    "Bound executive budget card to existing comparable-period measure",
+    "Configured local model root only in a private per-machine copy",
+    "Added fresh-extraction setup regression"
+  ]
+}

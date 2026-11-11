@@ -1,0 +1,158 @@
+{
+  "date_utc": "2026-11-10",
+  "python": "3.13",
+  "versions": {
+    "numpy": "2.2.5",
+    "pandas": "2.2.3",
+    "scipy": "1.15.3"
+  },
+  "data": "synthetic; anonymous market labels; no client records",
+  "rows": 910,
+  "markets": 5,
+  "tests": "11 passed",
+  "elasticities": [
+    {
+      "market": "MKT-A",
+      "true": -1.85,
+      "naive": -2.743,
+      "controlled": -1.879,
+      "ci_low": -2.076,
+      "ci_high": -1.681,
+      "truth_in_ci": true,
+      "naive_bias": -0.893,
+      "controlled_bias": -0.029
+    },
+    {
+      "market": "MKT-B",
+      "true": -0.72,
+      "naive": -0.52,
+      "controlled": -0.668,
+      "ci_low": -0.995,
+      "ci_high": -0.342,
+      "truth_in_ci": true,
+      "naive_bias": 0.2,
+      "controlled_bias": 0.052
+    },
+    {
+      "market": "MKT-C",
+      "true": -2.4,
+      "naive": -0.878,
+      "controlled": -2.48,
+      "ci_low": -2.836,
+      "ci_high": -2.124,
+      "truth_in_ci": true,
+      "naive_bias": 1.522,
+      "controlled_bias": -0.08
+    },
+    {
+      "market": "MKT-D",
+      "true": -1.1,
+      "naive": -0.425,
+      "controlled": -1.064,
+      "ci_low": -1.325,
+      "ci_high": -0.803,
+      "truth_in_ci": true,
+      "naive_bias": 0.675,
+      "controlled_bias": 0.036
+    },
+    {
+      "market": "MKT-E",
+      "true": -1.55,
+      "naive": -1.479,
+      "controlled": -1.655,
+      "ci_low": -1.848,
+      "ci_high": -1.463,
+      "truth_in_ci": true,
+      "naive_bias": 0.071,
+      "controlled_bias": -0.105
+    }
+  ],
+  "solver": "scipy.optimize.milp / HiGHS",
+  "plan": [
+    {
+      "market": "MKT-A",
+      "change": -0.15,
+      "revenue": 3718.2066223889947,
+      "units": 92073.561576389
+    },
+    {
+      "market": "MKT-B",
+      "change": 0.1,
+      "revenue": 2063.818806907918,
+      "units": 15413.0963228693
+    },
+    {
+      "market": "MKT-C",
+      "change": -0.15,
+      "revenue": 4087.792862667687,
+      "units": 125348.37599769079
+    },
+    {
+      "market": "MKT-D",
+      "change": -0.1,
+      "revenue": 2551.6233628698124,
+      "units": 39670.271489618935
+    },
+    {
+      "market": "MKT-E",
+      "change": -0.1,
+      "revenue": 2309.002584392266,
+      "units": 57102.94559557705
+    }
+  ],
+  "revenue_uplift_pct": 12.222070460277411,
+  "volume_change_pct": 31.073957677807094,
+  "constraint_comparisons": [
+    {
+      "escenario": "Plan completo (todas las restricciones)",
+      "uplift_ingreso_pct": 12.22,
+      "cambio_volumen_pct": 31.07,
+      "costo_vs_irrestricto_pp": 6.49
+    },
+    {
+      "escenario": "Sin tope de movimientos grandes",
+      "uplift_ingreso_pct": 13.2,
+      "cambio_volumen_pct": 34.14,
+      "costo_vs_irrestricto_pp": 5.51
+    },
+    {
+      "escenario": "Sin piso de volumen",
+      "uplift_ingreso_pct": 12.22,
+      "cambio_volumen_pct": 31.07,
+      "costo_vs_irrestricto_pp": 6.49
+    },
+    {
+      "escenario": "Sin ninguna restriccion operativa",
+      "uplift_ingreso_pct": 18.71,
+      "cambio_volumen_pct": 50.23,
+      "costo_vs_irrestricto_pp": 0.0
+    }
+  ],
+  "independent_ab_example": {
+    "n_per_group": 20000,
+    "plain_uplift_pct": 1.1304497453458,
+    "cuped_uplift_pct": 2.9356420538453842,
+    "ci_width_reduction_pct": 42.88407814742069,
+    "aa_significant_for_this_seed": false,
+    "separate_price_model_effect": -0.031539807759986105,
+    "linked_to_price_plan": false
+  },
+  "unverified": [
+    "XGBoost training and model accuracy",
+    "MLflow tracking/registry execution",
+    "SHAP and figure regeneration",
+    "Clean environment installation"
+  ],
+  "changes": [
+    "NumPy OLS with classical covariance replaces statsmodels wrapper",
+    "Equivalent binary price program runs on existing SciPy/HiGHS, replacing PuLP dependency",
+    "Solver failure is explicit; duplicate/missing baseline candidates rejected",
+    "Forecast feature construction imports without optional model/tracking/SHAP libraries",
+    "README separates independent A/B simulation and conditional one-step forecast evaluation"
+  ],
+  "privacy_check": {
+    "personal_account_or_windows_path_matches": [],
+    "scope": "Source/documentation known-account/path scan; generated data uses neutral market codes; required copyright attribution retained"
+  },
+  "syntax_check_passed": true
+}
